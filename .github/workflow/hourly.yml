@@ -1,4 +1,4 @@
-name: Daily Update
+name: Hourly Update
 on:
   workflow_dispatch:
   schedule:
@@ -21,7 +21,7 @@ jobs:
         uses: EndBug/add-and-commit@v5
         with:
           author_name: Trackbot
-          message: "chore: Hourly Update"
+          message: "chore: ${{ env.GITHUB_WORKFLOW }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
