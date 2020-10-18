@@ -20,7 +20,7 @@ jobs:
       - name: Commit
         uses: EndBug/add-and-commit@v5
         with:
-          message: "chore: ${{ env.GITHUB_WORKFLOW }}"
+          message: "chore: Weekly Update"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
