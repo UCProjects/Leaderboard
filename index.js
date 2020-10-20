@@ -37,14 +37,12 @@ function loadChanges(type = 'daily') {
             data.eloChange = data.eloRanked - prev.eloRanked; // Higher elo is better
             data.rankChange = prev.position - position; // Lower position is better
           }
-          data.rank = position;
+          data.rank = position + 1;
           // data.bestRank = Math.min(position, prev ? prev.bestRank : Infinity);
           // data.eloBest = Math.max(data.eloRanked, prev ? prev.eloBest : 0);
         });
         return rankings;
       })
-      // TODO: Save posts
-      // Save user data (for posterity)
       .then((rankings = []) => {
         return Promise.all(rankings.map((data) => writeFile(`./data/users/${data.id}.json`, JSON.stringify(data, undefined, 2))))
           .then(() => rankings);
