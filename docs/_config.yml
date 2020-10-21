@@ -3,6 +3,7 @@ theme: "minima"
 baseurl: "/Leaderboard"
 permalink: /:title
 excerpt_separator: <!--more-->
+safe: true
 
 collections:
   weekly:
