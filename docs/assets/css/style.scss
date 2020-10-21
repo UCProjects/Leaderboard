@@ -1,23 +1,128 @@
 ---
 ---
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  user-select: none;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
 main {
   margin-left: 20rem;
 }
 
 .sidebar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 18rem;
-  text-align: right;
+  position: relative;
+
+  .container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-right: 10px;
+  }
+  
+  input {
+    display: none;
+    position: sticky;
+    opacity: 0;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    margin: 0;
+    padding: 0;
+    top: 10px;
+    left: 0;
+    
+    + label {
+      display: none;
+      position: sticky;
+      cursor: pointer;
+      left: 0;
+      padding: 5px 2px;
+      border: 1px solid black;
+      border-left: none;
+      z-index: 5;
+      background-color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
 
-.sidebar nav {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+@media only screen and (max-width: 960px) {
+  main {
+    margin-left: 30px;
+  }
+
+  .sidebar {
+    position: relative;
+
+    .container {
+      display: none;
+    }
+
+    input + label {
+      display: inline-block;
+      position: fixed;
+      top: 5px;
+    }
+
+    input:checked {
+      display: block;
+      position: fixed;
+      top: 5px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+
+      ~ .container {
+        display: block;
+        z-index: 10;
+      }
+    }
+  }
+
+  table.leaderboard tr:nth-child(n+501) {
+    display: none;
+  }
+
+  tr.render {
+    display: block;
+  }
 }
 
 .sidebar-nav-item {

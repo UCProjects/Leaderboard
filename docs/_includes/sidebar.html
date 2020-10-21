@@ -1,4 +1,6 @@
 <div class="sidebar">
+  <input id="show" type="checkbox" />
+  <label for="show" class="menu material-icons">menu</label>
   <div class="container">
     <div class="sidebar-about">
       <h1>
@@ -13,11 +15,6 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter.
-      {% endcomment %}
-
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
@@ -26,16 +23,13 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
       {% if site.github.repo %}
         <a class="sidebar-nav-item" href="{{ site.github.repo }}">Source</a>
       {% endif %}
-
       {% if site.github.sponsor %}
         <iframe class="sidebar-nav-item" src="https://github.com/sponsors/{{ site.github.sponsor }}/button" title="Sponsor {{ site.github.sponsor }}" height="35" width="116" style="border: 0;"></iframe>
       {% endif %}
     </nav>
-
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
