@@ -14,7 +14,7 @@ const from = 'https://undercards.net/Leaderboard?action=ranked';
 
 const safeReadData = ['id', 'username', 'winsRanked', 'lossesRanked', 'division', 'level', 'eloRanked'];
 
-function loadChanges(type = 'daily') {
+function loadChanges(type = 'daily', post = '') {
   const rankingsPath = `./data/rankings-${type}.json`;
   return needle(from)
     // Parse the leaderboard
@@ -93,7 +93,7 @@ function loadChanges(type = 'daily') {
 
         // Save post
         const postPath = `./docs/_${type}`;
-        return mkdir(postPath, {
+        return post === 'false' ? rankings : mkdir(postPath, {
           recursive: true,
         }).then(() => writeFile(`${postPath}/${Math.floor(Date.now() / 1000)}.md`, data));
       }));
