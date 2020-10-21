@@ -16,7 +16,7 @@ jobs:
       - name: Install
         run: npm install
       - name: Update
-        run: npm start hourly
+        run: npm start hourly false
       - name: Commit
         uses: EndBug/add-and-commit@v5
         with:
