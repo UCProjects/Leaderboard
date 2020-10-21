@@ -6,11 +6,13 @@ category: hourly
 
 {% assign posts = site.hourly | reverse %}
 {% for post in posts %}
+{: .leaderboard}
 <details>
   <summary>
     <a href="{{ post.url | relative_url }}">{{ post.slug | date: "%Y-%m-%d %H:%M" }}</a>
   </summary>
-  <a href="{{ post.url | relative_url }}">{{ post.excerpt }}</a>
+  {{ post.excerpt }}
+  <a href="{{ post.url | relative_url }}">See more</a>
 </details>
 {% endfor %}
 {% unless posts.size %}

@@ -33,7 +33,8 @@ main {
   font-weight: bold;
 }
 
-.leaderboard {
+.leaderboard table,
+table.leaderboard {
   border-spacing: 0;
   text-align: center;
 
@@ -57,10 +58,6 @@ main {
     padding: 8px;
     line-height: 1.42857143;
     border-bottom: 1px solid #ddd;
-  }
-
-  tr:last-child td {
-    border-bottom: none;
   }
 }
 
