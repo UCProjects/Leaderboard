@@ -46,8 +46,8 @@ main {
     bottom: 0;
     width: 18rem;
     text-align: right;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding-right: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    padding-right: 2rem;
   }
   
   input {
@@ -114,6 +114,11 @@ main {
         z-index: 10;
       }
     }
+  }
+
+  .leaderboard table,
+  table.leaderboard {
+    width: 100%;
   }
 
   table.leaderboard tr:nth-child(n+501) {
