@@ -8,7 +8,7 @@ Welcome to Undercards Leaderboard. Here we have the top 5 of each category (navi
 # Top 5 Leaderboard (Updated Hourly)
 {% if post %}
   {{ post.excerpt }}
-  [See more]({{ post.url }})
+  [See more]({{ post.url | relative_url }})
 {% else %}
 Nothing right now, come back later
 {% endif %}
@@ -17,7 +17,7 @@ Nothing right now, come back later
 # Top 5 Leaderboard (Updated Daily)
 {% if post %}
   {{ post.excerpt }}
-  [See more]({{ post.url }})
+  [See more]({{ post.url | relative_url }})
 {% else %}
 Nothing right now, come back later
 {% endif %}
@@ -26,7 +26,7 @@ Nothing right now, come back later
 # Top 5 Leaderboard (Updated Weekly)
 {% if post %}
   {{ post.excerpt }}
-  [See more]({{ post.url }})
+  [See more]({{ post.url | relative_url }})
 {% else %}
 Nothing right now, come back later
 {% endif %}
