@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% assign cat_list = site.categories[page.category] | reverse %}
+{% for post in cat_list %}
+  {% if post.url == page.url %}
+    {% unless forloop.first %}
+      {% assign pOffset = forloop.index | minus: 1 %}
+      {% assign next = cat_list[pOffset] %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign nOffset = forloop.index | plus: 1 %}
+      {% assign prev = cat_list[nOffset] %}
+    {% endunless  %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<article>
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.slug | date: "%b %d, %Y at %H:%M" }}</span>
+  {% if next or prev %}
+    <!-- Show next/previous button -->
+  {% endif %}
+  {{ content }}
+  {% if next or prev %}
+    <!-- Show next/previous button -->
+  {% endif %}
+</article>
