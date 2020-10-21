@@ -1,0 +1,75 @@
+---
+---
+
+main {
+  margin-left: 20rem;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 18rem;
+  text-align: right;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sidebar-nav-item {
+  display: block;
+  line-height: 1.75;
+}
+
+.sidebar-nav-item:hover, .sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+.leaderboard {
+  border-spacing: 0;
+  text-align: center;
+
+  th {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+  }
+
+  th:nth-child(1),
+  td:nth-child(1),
+  th:nth-child(3),
+  td:nth-child(3),
+  th:nth-child(5),
+  td:nth-child(5) {
+    text-align: left;
+  }
+
+  th, td {
+    padding: 8px;
+    line-height: 1.42857143;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+[data-change]:not([data-change^="-"]):not([data-change="0"])::after {
+  content: '▲' attr(data-change);
+  color: green;
+}
+
+[data-change^="-"]:not([data-change="-"])::after {
+  content: '▼' attr(data-change);
+  color: red;
+}
