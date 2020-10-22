@@ -14,9 +14,9 @@ jobs:
         with:
           node-version: '12'
       - name: Install
-        run: npm install
+        run: npm install --production
       - name: Update
-        run: npm start hourly --production
+        run: npm start hourly
       - name: Commit
         uses: EndBug/add-and-commit@v5
         with:
