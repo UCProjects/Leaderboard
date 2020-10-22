@@ -8,13 +8,11 @@ const {
   mkdir,
 } = fs.promises;
 
-const commit = true;
-
 const from = 'https://undercards.net/Leaderboard?action=ranked';
 
 const safeReadData = ['id', 'username', 'winsRanked', 'lossesRanked', 'division', 'level', 'eloRanked'];
 
-function loadChanges(type = 'daily', post = '') {
+function loadChanges(type = 'daily', skipCommit = '') {
   const rankingsPath = `./data/rankings-${type}.json`;
   return needle(from)
     // Parse the leaderboard
@@ -46,9 +44,9 @@ function loadChanges(type = 'daily', post = '') {
         });
         return rankings;
       })
-      .then((rankings = []) => commit ? Promise.all(rankings.map((data) => writeFile(`./data/users/${data.id}.json`, JSON.stringify(data, undefined, 2))))
-          .then(() => rankings) : rankings)
-      .then((rankings = []) => writeFile(rankingsPath, JSON.stringify(rankings, undefined, 2))
+      .then((rankings = []) => skipCommit ? rankings : Promise.all(rankings.map((data) => writeFile(`./data/users/${data.id}.json`, JSON.stringify(data, undefined, 2))))
+          .then(() => rankings))
+      .then((rankings = []) => skipCommit ? rankings : writeFile(rankingsPath, JSON.stringify(rankings, undefined, 2))
         .then(() => rankings))
       .then((rankings = []) => {
         const columns = [{
@@ -60,7 +58,7 @@ function loadChanges(type = 'daily', post = '') {
         }, {
           key: 'username',
           name: 'Player',
-          format: (text = '', { id }) => `<span alt="ID: ${id}">${text}</span>`,
+          format: (text = '', { id }) => `<span title="ID: ${id}">${text}</span>`,
         }, {
           key: 'division',
           format: (text = '') => text.replace('_', ' '),
@@ -76,26 +74,31 @@ function loadChanges(type = 'daily', post = '') {
           name: 'Losses',
         }];
 
-        const data = [
+        const top5 = [
           `---`,
           `title: ${capitalize(type)} Update`,
-          'layout: post',
+          'layout: leaderboard',
           `category: ${type}`,
           `---`,
+          '',
+          '{: .leaderboard}',
           `| ${columns.map(({ name = '', key = '' }) => name || capitalize(key)).join(' | ')} |`,
           `| ${columns.map(() => '---').join(' | ')} |`,
-          `${rankings.map((entry) => `| ${columns.map(({ 
+          `${rankings.slice(0, 5).map((entry) => `| ${columns.map(({ 
             key = '',
             format = (text, entry) => text,
-          }) => format(entry[key], entry)).join(' | ')} |${entry.rank === 5 ? ' <!--more-->' : ''}`).join('\n')}`,
-          '{: .leaderboard}',
+          }) => format(entry[key], entry)).join(' | ')} |`).join('\n')}`,
         ].join('\n');
 
         // Save post
+        const slug = Math.floor(Date.now() / 1000);
+        const postData = `./docs/assets/data/${type}`;
         const postPath = `./docs/_${type}`;
-        return post === 'false' ? rankings : mkdir(postPath, {
+        return mkdir(postData, {
           recursive: true,
-        }).then(() => writeFile(`${postPath}/${Math.floor(Date.now() / 1000)}.md`, data));
+        }).then(() => writeFile(`${postData}/${slug}.json`, JSON.stringify(rankings))).then(() => mkdir(postPath, {
+          recursive: true,
+        }).then(() => writeFile(`${postPath}/${slug}.md`, top5)));
       }));
 }
 

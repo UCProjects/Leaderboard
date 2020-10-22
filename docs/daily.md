@@ -5,7 +5,6 @@ layout: page
 
 {% assign posts = site.daily | reverse %}
 {% for post in posts %}
-{: .leaderboard}
 <details>
   <summary>
     <a href="{{ post.url | relative_url }}">{{ post.slug | date: "%Y-%m-%d %H:%M" }}</a>
