@@ -116,17 +116,8 @@ main {
     }
   }
 
-  .leaderboard table,
   table.leaderboard {
     width: 100%;
-  }
-
-  table.leaderboard tr:nth-child(n+501) {
-    display: none;
-  }
-
-  tr.render {
-    display: block;
   }
 }
 
@@ -143,7 +134,6 @@ main {
   font-weight: bold;
 }
 
-.leaderboard table,
 table.leaderboard {
   border-spacing: 0;
   text-align: center;
