@@ -114,10 +114,10 @@ main {
         z-index: 10;
       }
     }
+  }
 
-    table.leaderboard tr:nth-child(n+501) {
-      display: none;
-    }
+  table.leaderboard tr:nth-child(n+501) {
+    display: none;
   }
 
   table.leaderboard {
