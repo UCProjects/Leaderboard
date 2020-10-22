@@ -7,7 +7,7 @@ layout: page
 {% for post in posts %}
 <details>
   <summary>
-    <a href="{{ post.url | relative_url }}">{{ post.slug | date: "%Y-%m-%d %H:%M" }}</a>
+    <a href="{{ post.url | relative_url }}" data-time="{{ post.slug }}">{{ post.slug | date: "%Y-%m-%d %H:%M" }}</a>
   </summary>
   {{ post.excerpt }}
   <a href="{{ post.url | relative_url }}">See more</a>

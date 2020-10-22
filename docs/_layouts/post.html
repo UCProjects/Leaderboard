@@ -19,7 +19,7 @@ layout: default
 
 <article>
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.slug | date: "%b %d, %Y at %H:%M" }}</span>
+  <span class="post-date" data-time="{{ page.slug }}">{{ page.slug | date: "%Y-%m-%d %H:%M" }}</span>
   {% if next or prev %}
     <!-- Show next/previous button -->
   {% endif %}
