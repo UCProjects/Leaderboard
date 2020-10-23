@@ -14,6 +14,6 @@ category: weekly
   <a href="{{ post.url | relative_url }}">See more</a>
 </details>
 {% endfor %}
-{% unless posts.size %}
+{% unless posts.size > 0 %}
 Nothing here currently, wait for the next update!
 {% endunless %}
