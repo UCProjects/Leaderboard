@@ -4,7 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgba(173, 173, 173, 1);
+  /* background-color: rgba(173, 173, 173, 1); (I don't like it.) */
 }
 
 .material-icons {
@@ -35,6 +35,7 @@ body {
 
 main {
   margin-left: 20rem;
+  padding-left: 1rem;
 }
 
 .mobile-warning {
@@ -53,14 +54,15 @@ main {
     left: 0;
     top: 0;
     bottom: 0;
-    width: 18rem;
+    width: 19rem;
     text-align: right;
-    background-color: rgba(101, 101, 101, 1);
-    padding-right: 2rem;
+    background-color: rgba(0, 0, 0, 1);
+    padding-right: 1rem;
+    color: white;
   }
 
   a {
-    color: blue;
+    color: #333;
   }
 
   input {
