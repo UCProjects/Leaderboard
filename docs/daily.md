@@ -1,6 +1,7 @@
 ---
 title: Daily Updates
 layout: page
+category: daily
 ---
 
 {% assign posts = site.daily | reverse %}
