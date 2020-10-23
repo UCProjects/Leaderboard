@@ -1,6 +1,7 @@
 ---
 title: Weekly Updates
 layout: page
+category: weekly
 ---
 
 {% assign posts = site.weekly | reverse %}
