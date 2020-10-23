@@ -36,6 +36,14 @@ main {
   margin-left: 20rem;
 }
 
+.mobile-warning {
+  display: none;
+  border: 1px dashed red;
+  color: red;
+  padding: 10px;
+  margin: 5px 10px;
+}
+
 .sidebar {
   position: relative;
 
@@ -105,6 +113,10 @@ main {
     margin-left: 30px;
   }
 
+  .mobile-warning {
+    display: block;
+  }
+
   .sidebar {
     position: relative;
 
@@ -135,8 +147,13 @@ main {
     }
   }
 
+  /* limit mobile to first 500 */
   .leaderboard tr:nth-child(n+501) {
     display: none;
+  }
+
+  .tr.render {
+    display: initial;
   }
 }
 
@@ -176,4 +193,11 @@ main {
 [data-change^="-"]:not([data-change="-"])::after {
   content: '▼' attr(data-change);
   color: red;
+}
+
+/* For tiny screens (iPhone 5) */
+@media only screen and (max-width: 20rem) {
+  .sidebar .container {
+    width: 15rem;
+  }
 }
