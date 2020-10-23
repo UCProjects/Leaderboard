@@ -36,10 +36,6 @@ main {
   margin-left: 20rem;
 }
 
-a {
-  color: blue;
-}
-
 .mobile-warning {
   display: none;
   border: 1px dashed red;
@@ -61,7 +57,11 @@ a {
     background-color: rgba(255, 255, 255, 1);
     padding-right: 2rem;
   }
-  
+
+  a {
+    color: blue;
+  }
+
   input {
     display: none;
     position: sticky;
