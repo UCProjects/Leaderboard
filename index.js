@@ -37,6 +37,8 @@ function loadChanges(type = 'daily', skipCommit = '') {
           if (prev) {
             data.eloChange = data.eloRanked - prev.eloRanked; // Higher elo is better
             data.rankChange = prev.position - position; // Lower position is better
+            data.wins = data.winsRanked - prev.winsRanked;
+            data.losses = data.lossesRanked - prev.lossesRanked;
           }
           data.rank = position + 1;
           // data.bestRank = Math.min(position, prev ? prev.bestRank : Infinity);
@@ -51,7 +53,7 @@ function loadChanges(type = 'daily', skipCommit = '') {
       .then((rankings = []) => {
         const columns = [{
           key: 'rank',
-          format: (text = '', {rankChange: rc}) => `<span data-change="${rc === undefined ? '-' : rc}">${text}</span>`,
+          format: (text = '', { rankChange }) => change(text, rankChange),
         }, {
           key: 'level',
           name: 'LV',
@@ -65,13 +67,15 @@ function loadChanges(type = 'daily', skipCommit = '') {
         }, {
           key: 'eloRanked',
           name: 'Elo',
-          format: (text = '', { eloChange: ec }) => `<span data-change="${ec === undefined ? '-' : ec}">${text}</span>`,
+          format: (text = '', { eloChange }) => change(text, eloChange),
         }, {
           key: 'winsRanked',
           name: 'Wins',
+          format: (text = '', { wins }) => change(text, wins),
         }, {
           key: 'lossesRanked',
           name: 'Losses',
+          format: (text = '', { losses }) => change(text, losses),
         }];
 
         const top5 = [
@@ -104,6 +108,10 @@ function loadChanges(type = 'daily', skipCommit = '') {
 
 function capitalize(text = '') {
   return text[0].toUpperCase() + text.substring(1);
+}
+
+function change(text, data) {
+  return `<span data-change="${data === undefined ? '-' : data}">${text}</span>`;
 }
 
 loadChanges(...process.argv.slice(2)).catch((e) => {
