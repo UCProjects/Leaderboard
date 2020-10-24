@@ -190,9 +190,12 @@ main {
   }
 }
 
+[data-change]::after {
+  color: green;
+}
+
 [data-change]:not([data-change^="-"]):not([data-change="0"])::after {
   content: '▲' attr(data-change);
-  color: green;
 }
 
 [data-change^="-"]:not([data-change="-"])::after {
