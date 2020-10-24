@@ -106,4 +106,7 @@ function capitalize(text = '') {
   return text[0].toUpperCase() + text.substring(1);
 }
 
-loadChanges(...process.argv.slice(2)).catch(console.error);
+loadChanges(...process.argv.slice(2)).catch((e) => {
+  console.error(e);
+  process.exit(1);
+});
