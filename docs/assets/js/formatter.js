@@ -1,6 +1,6 @@
 const columns = [{
   key: 'rank',
-  format: (text = '', {rankChange: rc}) => `<span data-change="${rc === undefined ? '-' : rc}">${text}</span>`,
+  format: (text = '', { rankChange }) => change(text, rankChange),
 }, {
   key: 'level',
 }, {
@@ -11,11 +11,17 @@ const columns = [{
   format: (text = '') => text.replace('_', ' '),
 }, {
   key: 'eloRanked',
-  format: (text = '', { eloChange: ec }) => `<span data-change="${ec === undefined ? '-' : ec}">${text}</span>`,
+  format: (text = '', { eloChange }) => change(text, eloChange),
 }, {
   key: 'winsRanked',
+  format: (text = '', { wins }) => change(text, wins),
 }, {
   key: 'lossesRanked',
+  format: (text = '', { losses }) => change(text, losses),
 }];
+
+function change(text, data) {
+  return `<span data-change="${data === undefined ? '-' : data}">${text}</span>`;
+}
 
 export default columns;
