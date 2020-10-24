@@ -21,7 +21,7 @@ jobs:
         uses: EndBug/add-and-commit@v5
         with:
           author_name: Trackbot
-          message: "chore: Hourly Update (${GITHUB_RUN_NUMBER}$GITHUB_RUN_NUMBER)"
+          message: "chore: Hourly Update"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
