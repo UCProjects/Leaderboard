@@ -201,7 +201,7 @@ main {
 }
 
 /* Losses increased */
-td:nth-child(7) [data-change] {
+td:nth-child(7) [data-change]::after {
   color: red;
 }
 
