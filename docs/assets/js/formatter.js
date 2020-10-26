@@ -25,3 +25,5 @@ function change(text, data) {
 }
 
 export default columns;
+
+export { default as extra } from './extras.js';
