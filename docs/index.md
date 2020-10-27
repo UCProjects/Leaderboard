@@ -1,4 +1,5 @@
 ---
+title: Home
 layout: default
 ---
 {% assign post = site.hourly | reverse | first %}
