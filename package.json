@@ -2,7 +2,7 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "host": "bundle exec jekyll serve",
     "build": "bundle install && bundle exec jekyll build"
   },
