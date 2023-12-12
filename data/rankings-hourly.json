@@ -77,9 +77,9 @@
     "division": "MASTER_III",
     "level": 328,
     "eloRanked": 2135,
-    "eloChange": 10,
-    "rankChange": 2,
-    "wins": 1,
+    "eloChange": 0,
+    "rankChange": 0,
+    "wins": 0,
     "losses": 0,
     "rank": 6
   },
@@ -92,7 +92,7 @@
     "level": 937,
     "eloRanked": 2132,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 7
@@ -106,7 +106,7 @@
     "level": 2342,
     "eloRanked": 2131,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 8
@@ -322,6 +322,20 @@
     "rank": 23
   },
   {
+    "id": 490198,
+    "username": "sanses2",
+    "winsRanked": 39,
+    "lossesRanked": 18,
+    "division": "ONYX_III",
+    "level": 405,
+    "eloRanked": 2032,
+    "eloChange": 4,
+    "rankChange": 2,
+    "wins": 1,
+    "losses": 0,
+    "rank": 24
+  },
+  {
     "id": 1034,
     "username": "Arma444",
     "winsRanked": 20,
@@ -330,38 +344,10 @@
     "level": 961,
     "eloRanked": 2030,
     "eloChange": 0,
-    "rankChange": 0,
-    "wins": 0,
-    "losses": 0,
-    "rank": 24
-  },
-  {
-    "id": 544310,
-    "username": "TheDraconic",
-    "winsRanked": 51,
-    "lossesRanked": 51,
-    "division": "ONYX_III",
-    "level": 1418,
-    "eloRanked": 2029,
-    "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
     "rank": 25
-  },
-  {
-    "id": 490198,
-    "username": "sanses2",
-    "winsRanked": 38,
-    "lossesRanked": 18,
-    "division": "ONYX_III",
-    "level": 405,
-    "eloRanked": 2028,
-    "eloChange": 6,
-    "rankChange": 2,
-    "wins": 1,
-    "losses": 0,
-    "rank": 26
   },
   {
     "id": 139291,
@@ -372,10 +358,10 @@
     "level": 851,
     "eloRanked": 2028,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 27
+    "rank": 26
   },
   {
     "id": 372074,
@@ -386,9 +372,23 @@
     "level": 924,
     "eloRanked": 2025,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
+    "rank": 27
+  },
+  {
+    "id": 544310,
+    "username": "TheDraconic",
+    "winsRanked": 51,
+    "lossesRanked": 52,
+    "division": "ONYX_III",
+    "level": 1418,
+    "eloRanked": 2025,
+    "eloChange": -4,
+    "rankChange": -3,
+    "wins": 0,
+    "losses": 1,
     "rank": 28
   },
   {
@@ -512,7 +512,7 @@
     "level": 382,
     "eloRanked": 1989,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 37
@@ -526,7 +526,7 @@
     "level": 637,
     "eloRanked": 1986,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 38
@@ -540,7 +540,7 @@
     "level": 282,
     "eloRanked": 1982,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 39
@@ -554,7 +554,7 @@
     "level": 499,
     "eloRanked": 1982,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 40
@@ -568,7 +568,7 @@
     "level": 485,
     "eloRanked": 1981,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 41
@@ -582,7 +582,7 @@
     "level": 500,
     "eloRanked": 1980,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 42
@@ -596,7 +596,7 @@
     "level": 617,
     "eloRanked": 1975,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 43
@@ -609,10 +609,10 @@
     "division": "DIAMOND_I",
     "level": 203,
     "eloRanked": 1975,
-    "eloChange": -19,
-    "rankChange": -7,
-    "wins": 1,
-    "losses": 2,
+    "eloChange": 0,
+    "rankChange": 0,
+    "wins": 0,
+    "losses": 0,
     "rank": 44
   },
   {
@@ -1349,7 +1349,7 @@
     "winsRanked": 37,
     "lossesRanked": 14,
     "division": "RUBY_I",
-    "level": 805,
+    "level": 806,
     "eloRanked": 1875,
     "eloChange": 0,
     "rankChange": 0,
@@ -1904,20 +1904,6 @@
     "rank": 136
   },
   {
-    "id": 723433,
-    "username": "Peachysakura",
-    "winsRanked": 47,
-    "lossesRanked": 26,
-    "division": "RUBY_III",
-    "level": 199,
-    "eloRanked": 1832,
-    "eloChange": 19,
-    "rankChange": 27,
-    "wins": 4,
-    "losses": 2,
-    "rank": 137
-  },
-  {
     "id": 554953,
     "username": "TheGreatStor",
     "winsRanked": 47,
@@ -1926,8 +1912,22 @@
     "level": 150,
     "eloRanked": 1832,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
+    "losses": 0,
+    "rank": 137
+  },
+  {
+    "id": 719303,
+    "username": "FeetusDiabetez",
+    "winsRanked": 15,
+    "lossesRanked": 14,
+    "division": "RUBY_III",
+    "level": 268,
+    "eloRanked": 1832,
+    "eloChange": 9,
+    "rankChange": 15,
+    "wins": 1,
     "losses": 0,
     "rank": 138
   },
@@ -1940,7 +1940,7 @@
     "level": 1103,
     "eloRanked": 1831,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 139
@@ -1954,7 +1954,7 @@
     "level": 94,
     "eloRanked": 1831,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 140
@@ -1968,10 +1968,24 @@
     "level": 1836,
     "eloRanked": 1831,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 141
+  },
+  {
+    "id": 723433,
+    "username": "Peachysakura",
+    "winsRanked": 48,
+    "lossesRanked": 27,
+    "division": "RUBY_III",
+    "level": 199,
+    "eloRanked": 1830,
+    "eloChange": -2,
+    "rankChange": -5,
+    "wins": 1,
+    "losses": 1,
+    "rank": 142
   },
   {
     "id": 649259,
@@ -1985,7 +1999,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 142
+    "rank": 143
   },
   {
     "id": 314156,
@@ -1999,7 +2013,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 143
+    "rank": 144
   },
   {
     "id": 488578,
@@ -2013,7 +2027,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 144
+    "rank": 145
   },
   {
     "id": 517705,
@@ -2027,7 +2041,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 145
+    "rank": 146
   },
   {
     "id": 445423,
@@ -2041,7 +2055,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 146
+    "rank": 147
   },
   {
     "id": 610182,
@@ -2055,7 +2069,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 147
+    "rank": 148
   },
   {
     "id": 611195,
@@ -2069,7 +2083,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 148
+    "rank": 149
   },
   {
     "id": 662635,
@@ -2083,7 +2097,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 149
+    "rank": 150
   },
   {
     "id": 744974,
@@ -2097,7 +2111,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 150
+    "rank": 151
   },
   {
     "id": 1692,
@@ -2111,7 +2125,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 151
+    "rank": 152
   },
   {
     "id": 385955,
@@ -2125,20 +2139,6 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 152
-  },
-  {
-    "id": 719303,
-    "username": "FeetusDiabetez",
-    "winsRanked": 14,
-    "lossesRanked": 14,
-    "division": "RUBY_IV",
-    "level": 267,
-    "eloRanked": 1823,
-    "eloChange": 23,
-    "rankChange": 32,
-    "wins": 2,
-    "losses": 2,
     "rank": 153
   },
   {
@@ -2150,7 +2150,7 @@
     "level": 232,
     "eloRanked": 1823,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 154
@@ -2164,7 +2164,7 @@
     "level": 322,
     "eloRanked": 1819,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 155
@@ -2178,7 +2178,7 @@
     "level": 209,
     "eloRanked": 1819,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 156
@@ -2192,7 +2192,7 @@
     "level": 141,
     "eloRanked": 1818,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 157
@@ -2206,7 +2206,7 @@
     "level": 249,
     "eloRanked": 1818,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 158
@@ -2220,7 +2220,7 @@
     "level": 740,
     "eloRanked": 1818,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 159
@@ -2234,7 +2234,7 @@
     "level": 738,
     "eloRanked": 1817,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 160
@@ -2248,7 +2248,7 @@
     "level": 1347,
     "eloRanked": 1817,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 161
@@ -2262,7 +2262,7 @@
     "level": 139,
     "eloRanked": 1816,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 162
@@ -2276,7 +2276,7 @@
     "level": 814,
     "eloRanked": 1816,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 163
@@ -2290,7 +2290,7 @@
     "level": 178,
     "eloRanked": 1815,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 164
@@ -2304,7 +2304,7 @@
     "level": 244,
     "eloRanked": 1815,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 165
@@ -2318,7 +2318,7 @@
     "level": 201,
     "eloRanked": 1810,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 166
@@ -2332,7 +2332,7 @@
     "level": 70,
     "eloRanked": 1809,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 167
@@ -2346,7 +2346,7 @@
     "level": 117,
     "eloRanked": 1809,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 168
@@ -2360,7 +2360,7 @@
     "level": 234,
     "eloRanked": 1808,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 169
@@ -2374,7 +2374,7 @@
     "level": 565,
     "eloRanked": 1807,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 170
@@ -2388,7 +2388,7 @@
     "level": 939,
     "eloRanked": 1805,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 171
@@ -2402,7 +2402,7 @@
     "level": 467,
     "eloRanked": 1805,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 172
@@ -2416,7 +2416,7 @@
     "level": 426,
     "eloRanked": 1804,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 173
@@ -2430,7 +2430,7 @@
     "level": 434,
     "eloRanked": 1804,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 174
@@ -2444,7 +2444,7 @@
     "level": 270,
     "eloRanked": 1804,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 175
@@ -2458,7 +2458,7 @@
     "level": 350,
     "eloRanked": 1803,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 176
@@ -2472,7 +2472,7 @@
     "level": 39,
     "eloRanked": 1802,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 177
@@ -2486,7 +2486,7 @@
     "level": 125,
     "eloRanked": 1802,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 178
@@ -2500,7 +2500,7 @@
     "level": 256,
     "eloRanked": 1800,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 179
@@ -2514,7 +2514,7 @@
     "level": 415,
     "eloRanked": 1800,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 180
@@ -2528,7 +2528,7 @@
     "level": 244,
     "eloRanked": 1800,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 181
@@ -2542,7 +2542,7 @@
     "level": 25,
     "eloRanked": 1800,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 182
@@ -2556,7 +2556,7 @@
     "level": 382,
     "eloRanked": 1800,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 183
@@ -2570,7 +2570,7 @@
     "level": 409,
     "eloRanked": 1800,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 184
@@ -2584,7 +2584,7 @@
     "level": 273,
     "eloRanked": 1800,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 185
@@ -2698,7 +2698,7 @@
     "eloChange": 0,
     "rankChange": 0,
     "wins": 0,
-    "losses": 1,
+    "losses": 0,
     "rank": 193
   },
   {
@@ -3171,10 +3171,10 @@
     "division": "AMETHYST_II",
     "level": 250,
     "eloRanked": 1764,
-    "eloChange": 26,
-    "rankChange": 28,
-    "wins": 2,
-    "losses": 1,
+    "eloChange": 0,
+    "rankChange": 0,
+    "wins": 0,
+    "losses": 0,
     "rank": 227
   },
   {
@@ -3186,7 +3186,7 @@
     "level": 332,
     "eloRanked": 1763,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 228
@@ -3200,7 +3200,7 @@
     "level": 187,
     "eloRanked": 1762,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 229
@@ -3214,7 +3214,7 @@
     "level": 203,
     "eloRanked": 1762,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 230
@@ -3228,7 +3228,7 @@
     "level": 379,
     "eloRanked": 1759,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 231
@@ -3242,7 +3242,7 @@
     "level": 231,
     "eloRanked": 1759,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 232
@@ -3256,7 +3256,7 @@
     "level": 63,
     "eloRanked": 1759,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 233
@@ -3270,7 +3270,7 @@
     "level": 153,
     "eloRanked": 1756,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 234
@@ -3284,7 +3284,7 @@
     "level": 56,
     "eloRanked": 1756,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 235
@@ -3298,10 +3298,24 @@
     "level": 145,
     "eloRanked": 1755,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 236
+  },
+  {
+    "id": 539155,
+    "username": "happyface",
+    "winsRanked": 19,
+    "lossesRanked": 36,
+    "division": "AMETHYST_II",
+    "level": 74,
+    "eloRanked": 1754,
+    "eloChange": 21,
+    "rankChange": 23,
+    "wins": 1,
+    "losses": 0,
+    "rank": 237
   },
   {
     "id": 521472,
@@ -3315,7 +3329,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 237
+    "rank": 238
   },
   {
     "id": 720567,
@@ -3329,7 +3343,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 238
+    "rank": 239
   },
   {
     "id": 173603,
@@ -3343,7 +3357,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 239
+    "rank": 240
   },
   {
     "id": 485340,
@@ -3357,7 +3371,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 240
+    "rank": 241
   },
   {
     "id": 449939,
@@ -3371,7 +3385,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 241
+    "rank": 242
   },
   {
     "id": 741653,
@@ -3385,7 +3399,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 242
+    "rank": 243
   },
   {
     "id": 662773,
@@ -3399,7 +3413,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 243
+    "rank": 244
   },
   {
     "id": 654376,
@@ -3413,7 +3427,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 244
+    "rank": 245
   },
   {
     "id": 630640,
@@ -3427,7 +3441,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 245
+    "rank": 246
   },
   {
     "id": 55540,
@@ -3441,7 +3455,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 246
+    "rank": 247
   },
   {
     "id": 563655,
@@ -3455,7 +3469,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 247
+    "rank": 248
   },
   {
     "id": 657049,
@@ -3469,7 +3483,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 248
+    "rank": 249
   },
   {
     "id": 748246,
@@ -3483,7 +3497,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 249
+    "rank": 250
   },
   {
     "id": 371718,
@@ -3497,7 +3511,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 250
+    "rank": 251
   },
   {
     "id": 400120,
@@ -3511,7 +3525,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 251
+    "rank": 252
   },
   {
     "id": 693232,
@@ -3525,7 +3539,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 252
+    "rank": 253
   },
   {
     "id": 218432,
@@ -3539,7 +3553,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 253
+    "rank": 254
   },
   {
     "id": 747518,
@@ -3553,7 +3567,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 254
+    "rank": 255
   },
   {
     "id": 372168,
@@ -3567,7 +3581,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 255
+    "rank": 256
   },
   {
     "id": 743283,
@@ -3578,10 +3592,10 @@
     "level": 169,
     "eloRanked": 1737,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 256
+    "rank": 257
   },
   {
     "id": 127720,
@@ -3592,10 +3606,10 @@
     "level": 186,
     "eloRanked": 1735,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 257
+    "rank": 258
   },
   {
     "id": 685051,
@@ -3606,10 +3620,10 @@
     "level": 50,
     "eloRanked": 1735,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 258
+    "rank": 259
   },
   {
     "id": 428156,
@@ -3620,21 +3634,7 @@
     "level": 244,
     "eloRanked": 1733,
     "eloChange": 0,
-    "rankChange": 0,
-    "wins": 0,
-    "losses": 0,
-    "rank": 259
-  },
-  {
-    "id": 539155,
-    "username": "happyface",
-    "winsRanked": 18,
-    "lossesRanked": 36,
-    "division": "AMETHYST_III",
-    "level": 74,
-    "eloRanked": 1733,
-    "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
     "rank": 260
@@ -3696,6 +3696,20 @@
     "rank": 264
   },
   {
+    "id": 43449,
+    "username": "SiriusGG",
+    "winsRanked": 19,
+    "lossesRanked": 0,
+    "division": "AMETHYST_III",
+    "level": 286,
+    "eloRanked": 1728,
+    "eloChange": 24,
+    "rankChange": 30,
+    "wins": 2,
+    "losses": 0,
+    "rank": 265
+  },
+  {
     "id": 214895,
     "username": "ACrawford002",
     "winsRanked": 26,
@@ -3704,10 +3718,10 @@
     "level": 222,
     "eloRanked": 1727,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 265
+    "rank": 266
   },
   {
     "id": 651975,
@@ -3717,11 +3731,11 @@
     "division": "AMETHYST_III",
     "level": 70,
     "eloRanked": 1725,
-    "eloChange": 17,
-    "rankChange": 23,
-    "wins": 1,
-    "losses": 1,
-    "rank": 266
+    "eloChange": 0,
+    "rankChange": -1,
+    "wins": 0,
+    "losses": 0,
+    "rank": 267
   },
   {
     "id": 615300,
@@ -3735,7 +3749,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 267
+    "rank": 268
   },
   {
     "id": 102059,
@@ -3749,7 +3763,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 268
+    "rank": 269
   },
   {
     "id": 535403,
@@ -3763,7 +3777,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 269
+    "rank": 270
   },
   {
     "id": 741586,
@@ -3777,7 +3791,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 270
+    "rank": 271
   },
   {
     "id": 746592,
@@ -3791,13 +3805,13 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 271
+    "rank": 272
   },
   {
     "id": 66500,
     "username": "Blaster",
     "winsRanked": 26,
-    "lossesRanked": 34,
+    "lossesRanked": 36,
     "division": "AMETHYST_III",
     "level": 230,
     "eloRanked": 1725,
@@ -3805,7 +3819,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 2,
-    "rank": 272
+    "rank": 273
   },
   {
     "id": 200289,
@@ -3819,7 +3833,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 273
+    "rank": 274
   },
   {
     "id": 104645,
@@ -3833,7 +3847,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 274
+    "rank": 275
   },
   {
     "id": 416123,
@@ -3847,7 +3861,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 275
+    "rank": 276
   },
   {
     "id": 569718,
@@ -3861,7 +3875,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 276
+    "rank": 277
   },
   {
     "id": 392871,
@@ -3875,7 +3889,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 277
+    "rank": 278
   },
   {
     "id": 563102,
@@ -3889,7 +3903,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 278
+    "rank": 279
   },
   {
     "id": 488585,
@@ -3903,7 +3917,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 279
+    "rank": 280
   },
   {
     "id": 510855,
@@ -3917,7 +3931,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 280
+    "rank": 281
   },
   {
     "id": 421069,
@@ -3931,7 +3945,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 281
+    "rank": 282
   },
   {
     "id": 72638,
@@ -3945,7 +3959,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 282
+    "rank": 283
   },
   {
     "id": 558672,
@@ -3959,7 +3973,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 283
+    "rank": 284
   },
   {
     "id": 466636,
@@ -3973,7 +3987,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 284
+    "rank": 285
   },
   {
     "id": 719566,
@@ -3987,7 +4001,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 285
+    "rank": 286
   },
   {
     "id": 121157,
@@ -4001,7 +4015,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 286
+    "rank": 287
   },
   {
     "id": 457590,
@@ -4015,7 +4029,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 287
+    "rank": 288
   },
   {
     "id": 744264,
@@ -4029,7 +4043,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 288
+    "rank": 289
   },
   {
     "id": 725807,
@@ -4043,7 +4057,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 289
+    "rank": 290
   },
   {
     "id": 525602,
@@ -4054,10 +4068,24 @@
     "level": 102,
     "eloRanked": 1708,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 290
+    "rank": 291
+  },
+  {
+    "id": 530839,
+    "username": "Outer the cat",
+    "winsRanked": 28,
+    "lossesRanked": 64,
+    "division": "AMETHYST_IV",
+    "level": 127,
+    "eloRanked": 1708,
+    "eloChange": 8,
+    "rankChange": 26,
+    "wins": 1,
+    "losses": 1,
+    "rank": 292
   },
   {
     "id": 348725,
@@ -4068,10 +4096,10 @@
     "level": 630,
     "eloRanked": 1708,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 291
+    "rank": 293
   },
   {
     "id": 508140,
@@ -4082,10 +4110,24 @@
     "level": 355,
     "eloRanked": 1707,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 292
+    "rank": 294
+  },
+  {
+    "id": 616546,
+    "username": "lRainHunterl",
+    "winsRanked": 10,
+    "lossesRanked": 24,
+    "division": "AMETHYST_IV",
+    "level": 911,
+    "eloRanked": 1706,
+    "eloChange": 18,
+    "rankChange": 32,
+    "wins": 1,
+    "losses": 0,
+    "rank": 295
   },
   {
     "id": 311030,
@@ -4096,10 +4138,10 @@
     "level": 908,
     "eloRanked": 1705,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 293
+    "rank": 296
   },
   {
     "id": 399346,
@@ -4110,24 +4152,10 @@
     "level": 238,
     "eloRanked": 1705,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 294
-  },
-  {
-    "id": 43449,
-    "username": "SiriusGG",
-    "winsRanked": 17,
-    "lossesRanked": 0,
-    "division": "AMETHYST_IV",
-    "level": 286,
-    "eloRanked": 1704,
-    "eloChange": 84,
-    "rankChange": 132,
-    "wins": 4,
-    "losses": 0,
-    "rank": 295
+    "rank": 297
   },
   {
     "id": 229596,
@@ -4138,10 +4166,10 @@
     "level": 1103,
     "eloRanked": 1704,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 296
+    "rank": 298
   },
   {
     "id": 488449,
@@ -4152,10 +4180,10 @@
     "level": 63,
     "eloRanked": 1704,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 297
+    "rank": 299
   },
   {
     "id": 726842,
@@ -4166,10 +4194,24 @@
     "level": 50,
     "eloRanked": 1702,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 298
+    "rank": 300
+  },
+  {
+    "id": 54934,
+    "username": "synok",
+    "winsRanked": 6,
+    "lossesRanked": 5,
+    "division": "AMETHYST_IV",
+    "level": 198,
+    "eloRanked": 1702,
+    "eloChange": 5,
+    "rankChange": 18,
+    "wins": 1,
+    "losses": 0,
+    "rank": 301
   },
   {
     "id": 745383,
@@ -4180,10 +4222,10 @@
     "level": 52,
     "eloRanked": 1702,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 299
+    "rank": 302
   },
   {
     "id": 747536,
@@ -4194,10 +4236,10 @@
     "level": 61,
     "eloRanked": 1701,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 300
+    "rank": 303
   },
   {
     "id": 478675,
@@ -4208,10 +4250,10 @@
     "level": 204,
     "eloRanked": 1701,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 301
+    "rank": 304
   },
   {
     "id": 219353,
@@ -4222,10 +4264,10 @@
     "level": 148,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 302
+    "rank": 305
   },
   {
     "id": 204742,
@@ -4236,10 +4278,10 @@
     "level": 189,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 303
+    "rank": 306
   },
   {
     "id": 746324,
@@ -4250,10 +4292,10 @@
     "level": 24,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 304
+    "rank": 307
   },
   {
     "id": 113229,
@@ -4264,10 +4306,10 @@
     "level": 861,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 305
+    "rank": 308
   },
   {
     "id": 747388,
@@ -4278,10 +4320,10 @@
     "level": 75,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 306
+    "rank": 309
   },
   {
     "id": 445929,
@@ -4292,10 +4334,10 @@
     "level": 241,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 307
+    "rank": 310
   },
   {
     "id": 742441,
@@ -4306,10 +4348,10 @@
     "level": 151,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 308
+    "rank": 311
   },
   {
     "id": 740390,
@@ -4320,10 +4362,10 @@
     "level": 54,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 309
+    "rank": 312
   },
   {
     "id": 738712,
@@ -4334,10 +4376,10 @@
     "level": 130,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 310
+    "rank": 313
   },
   {
     "id": 132534,
@@ -4348,10 +4390,10 @@
     "level": 658,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 311
+    "rank": 314
   },
   {
     "id": 310580,
@@ -4362,10 +4404,10 @@
     "level": 723,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 312
+    "rank": 315
   },
   {
     "id": 745351,
@@ -4376,10 +4418,10 @@
     "level": 91,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 313
+    "rank": 316
   },
   {
     "id": 361868,
@@ -4390,10 +4432,10 @@
     "level": 138,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 314
+    "rank": 317
   },
   {
     "id": 650937,
@@ -4404,10 +4446,10 @@
     "level": 86,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 315
+    "rank": 318
   },
   {
     "id": 455724,
@@ -4418,10 +4460,10 @@
     "level": 1037,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 316
+    "rank": 319
   },
   {
     "id": 648671,
@@ -4432,38 +4474,10 @@
     "level": 580,
     "eloRanked": 1700,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 317
-  },
-  {
-    "id": 530839,
-    "username": "Outer the cat",
-    "winsRanked": 27,
-    "lossesRanked": 63,
-    "division": "AMETHYST_IV",
-    "level": 127,
-    "eloRanked": 1700,
-    "eloChange": 0,
-    "rankChange": -1,
-    "wins": 0,
-    "losses": 2,
-    "rank": 318
-  },
-  {
-    "id": 54934,
-    "username": "synok",
-    "winsRanked": 5,
-    "lossesRanked": 5,
-    "division": "SAPPHIRE_I",
-    "level": 197,
-    "eloRanked": 1697,
-    "eloChange": 9,
-    "rankChange": 6,
-    "wins": 1,
-    "losses": 0,
-    "rank": 319
+    "rank": 320
   },
   {
     "id": 644395,
@@ -4474,10 +4488,10 @@
     "level": 90,
     "eloRanked": 1694,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 320
+    "rank": 321
   },
   {
     "id": 278617,
@@ -4488,10 +4502,10 @@
     "level": 454,
     "eloRanked": 1693,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 321
+    "rank": 322
   },
   {
     "id": 31323,
@@ -4502,10 +4516,10 @@
     "level": 323,
     "eloRanked": 1692,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 322
+    "rank": 323
   },
   {
     "id": 729283,
@@ -4516,10 +4530,10 @@
     "level": 205,
     "eloRanked": 1692,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 323
+    "rank": 324
   },
   {
     "id": 165044,
@@ -4530,10 +4544,10 @@
     "level": 685,
     "eloRanked": 1692,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 324
+    "rank": 325
   },
   {
     "id": 747330,
@@ -4544,10 +4558,10 @@
     "level": 38,
     "eloRanked": 1690,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 325
+    "rank": 326
   },
   {
     "id": 654428,
@@ -4558,23 +4572,9 @@
     "level": 99,
     "eloRanked": 1688,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 326
-  },
-  {
-    "id": 616546,
-    "username": "lRainHunterl",
-    "winsRanked": 9,
-    "lossesRanked": 24,
-    "division": "SAPPHIRE_I",
-    "level": 911,
-    "eloRanked": 1688,
-    "eloChange": 6,
-    "rankChange": 6,
-    "wins": 2,
-    "losses": 1,
     "rank": 327
   },
   {
@@ -4586,7 +4586,7 @@
     "level": 112,
     "eloRanked": 1686,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 328
@@ -4600,7 +4600,7 @@
     "level": 105,
     "eloRanked": 1686,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 329
@@ -4614,7 +4614,7 @@
     "level": 844,
     "eloRanked": 1684,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 330
@@ -4628,7 +4628,7 @@
     "level": 103,
     "eloRanked": 1684,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 331
@@ -4642,7 +4642,7 @@
     "level": 234,
     "eloRanked": 1683,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 332
@@ -4656,7 +4656,7 @@
     "level": 699,
     "eloRanked": 1682,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 333
@@ -4670,7 +4670,7 @@
     "level": 481,
     "eloRanked": 1682,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 334
@@ -4684,7 +4684,7 @@
     "level": 296,
     "eloRanked": 1679,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 335
@@ -4698,7 +4698,7 @@
     "level": 397,
     "eloRanked": 1679,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 336
@@ -4712,7 +4712,7 @@
     "level": 638,
     "eloRanked": 1678,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 337
@@ -4726,7 +4726,7 @@
     "level": 85,
     "eloRanked": 1677,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 338
@@ -4740,7 +4740,7 @@
     "level": 241,
     "eloRanked": 1676,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 339
@@ -4754,7 +4754,7 @@
     "level": 331,
     "eloRanked": 1675,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 340
@@ -4768,7 +4768,7 @@
     "level": 41,
     "eloRanked": 1675,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 341
@@ -4782,7 +4782,7 @@
     "level": 245,
     "eloRanked": 1675,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 342
@@ -4796,7 +4796,7 @@
     "level": 171,
     "eloRanked": 1675,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 343
@@ -4810,7 +4810,7 @@
     "level": 272,
     "eloRanked": 1675,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 344
@@ -4824,7 +4824,7 @@
     "level": 70,
     "eloRanked": 1675,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 345
@@ -4838,7 +4838,7 @@
     "level": 55,
     "eloRanked": 1675,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 346
@@ -4852,7 +4852,7 @@
     "level": 139,
     "eloRanked": 1675,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 347
@@ -4866,7 +4866,7 @@
     "level": 213,
     "eloRanked": 1675,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 348
@@ -4880,7 +4880,7 @@
     "level": 501,
     "eloRanked": 1675,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 349
@@ -4894,7 +4894,7 @@
     "level": 254,
     "eloRanked": 1675,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 350
@@ -4908,7 +4908,7 @@
     "level": 853,
     "eloRanked": 1667,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 351
@@ -4922,7 +4922,7 @@
     "level": 113,
     "eloRanked": 1666,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 352
@@ -4936,7 +4936,7 @@
     "level": 251,
     "eloRanked": 1665,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 353
@@ -4950,10 +4950,24 @@
     "level": 114,
     "eloRanked": 1665,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 354
+  },
+  {
+    "id": 656031,
+    "username": "ryankwok",
+    "winsRanked": 28,
+    "lossesRanked": 33,
+    "division": "SAPPHIRE_II",
+    "level": 84,
+    "eloRanked": 1665,
+    "eloChange": 15,
+    "rankChange": 17,
+    "wins": 1,
+    "losses": 0,
+    "rank": 355
   },
   {
     "id": 382634,
@@ -4967,7 +4981,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 355
+    "rank": 356
   },
   {
     "id": 107629,
@@ -4981,7 +4995,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 356
+    "rank": 357
   },
   {
     "id": 366998,
@@ -4995,7 +5009,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 357
+    "rank": 358
   },
   {
     "id": 142440,
@@ -5009,7 +5023,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 358
+    "rank": 359
   },
   {
     "id": 491122,
@@ -5023,7 +5037,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 359
+    "rank": 360
   },
   {
     "id": 569156,
@@ -5037,7 +5051,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 360
+    "rank": 361
   },
   {
     "id": 641474,
@@ -5047,11 +5061,11 @@
     "division": "SAPPHIRE_II",
     "level": 270,
     "eloRanked": 1659,
-    "eloChange": 9,
-    "rankChange": 11,
-    "wins": 1,
+    "eloChange": 0,
+    "rankChange": -1,
+    "wins": 0,
     "losses": 0,
-    "rank": 361
+    "rank": 362
   },
   {
     "id": 90389,
@@ -5062,10 +5076,10 @@
     "level": 539,
     "eloRanked": 1658,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 362
+    "rank": 363
   },
   {
     "id": 95689,
@@ -5079,7 +5093,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 363
+    "rank": 364
   },
   {
     "id": 747028,
@@ -5093,7 +5107,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 364
+    "rank": 365
   },
   {
     "id": 318250,
@@ -5107,7 +5121,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 365
+    "rank": 366
   },
   {
     "id": 667388,
@@ -5121,7 +5135,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 366
+    "rank": 367
   },
   {
     "id": 487455,
@@ -5135,7 +5149,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 367
+    "rank": 368
   },
   {
     "id": 745355,
@@ -5149,7 +5163,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 368
+    "rank": 369
   },
   {
     "id": 582589,
@@ -5163,7 +5177,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 369
+    "rank": 370
   },
   {
     "id": 747790,
@@ -5177,7 +5191,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 370
+    "rank": 371
   },
   {
     "id": 627299,
@@ -5191,20 +5205,6 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 371
-  },
-  {
-    "id": 656031,
-    "username": "ryankwok",
-    "winsRanked": 27,
-    "lossesRanked": 33,
-    "division": "SAPPHIRE_II",
-    "level": 84,
-    "eloRanked": 1650,
-    "eloChange": -7,
-    "rankChange": -11,
-    "wins": 0,
-    "losses": 1,
     "rank": 372
   },
   {
@@ -5216,7 +5216,7 @@
     "level": 83,
     "eloRanked": 1650,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 373
@@ -5230,7 +5230,7 @@
     "level": 298,
     "eloRanked": 1650,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 374
@@ -5244,7 +5244,7 @@
     "level": 223,
     "eloRanked": 1650,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 375
@@ -5258,7 +5258,7 @@
     "level": 386,
     "eloRanked": 1650,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 376
@@ -5272,7 +5272,7 @@
     "level": 113,
     "eloRanked": 1650,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 377
@@ -5286,7 +5286,7 @@
     "level": 112,
     "eloRanked": 1650,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 378
@@ -5300,7 +5300,7 @@
     "level": 890,
     "eloRanked": 1650,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 379
@@ -5314,7 +5314,7 @@
     "level": 353,
     "eloRanked": 1649,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 380
@@ -5328,7 +5328,7 @@
     "level": 192,
     "eloRanked": 1647,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 381
@@ -5342,7 +5342,7 @@
     "level": 761,
     "eloRanked": 1646,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 382
@@ -5356,7 +5356,7 @@
     "level": 803,
     "eloRanked": 1646,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 383
@@ -5370,7 +5370,7 @@
     "level": 57,
     "eloRanked": 1642,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 384
@@ -5384,7 +5384,7 @@
     "level": 326,
     "eloRanked": 1642,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 385
@@ -5398,7 +5398,7 @@
     "level": 713,
     "eloRanked": 1640,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 386
@@ -5412,7 +5412,7 @@
     "level": 227,
     "eloRanked": 1639,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 387
@@ -5426,7 +5426,7 @@
     "level": 307,
     "eloRanked": 1639,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 388
@@ -5440,7 +5440,7 @@
     "level": 44,
     "eloRanked": 1637,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 389
@@ -5454,7 +5454,7 @@
     "level": 212,
     "eloRanked": 1637,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 390
@@ -5468,7 +5468,7 @@
     "level": 91,
     "eloRanked": 1636,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 391
@@ -5482,7 +5482,7 @@
     "level": 352,
     "eloRanked": 1635,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 392
@@ -5496,7 +5496,7 @@
     "level": 530,
     "eloRanked": 1635,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 393
@@ -5510,7 +5510,7 @@
     "level": 198,
     "eloRanked": 1635,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 394
@@ -5524,7 +5524,7 @@
     "level": 308,
     "eloRanked": 1634,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 395
@@ -5538,7 +5538,7 @@
     "level": 96,
     "eloRanked": 1634,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 396
@@ -5552,7 +5552,7 @@
     "level": 20,
     "eloRanked": 1633,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 397
@@ -5566,7 +5566,7 @@
     "level": 42,
     "eloRanked": 1633,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 398
@@ -5580,7 +5580,7 @@
     "level": 103,
     "eloRanked": 1632,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 399
@@ -5594,7 +5594,7 @@
     "level": 206,
     "eloRanked": 1631,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 400
@@ -5608,7 +5608,7 @@
     "level": 20,
     "eloRanked": 1630,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 401
@@ -5622,7 +5622,7 @@
     "level": 102,
     "eloRanked": 1630,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 402
@@ -5636,7 +5636,7 @@
     "level": 50,
     "eloRanked": 1626,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 403
@@ -5650,7 +5650,7 @@
     "level": 37,
     "eloRanked": 1626,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 404
@@ -5664,7 +5664,7 @@
     "level": 693,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 405
@@ -5678,7 +5678,7 @@
     "level": 465,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 406
@@ -5692,7 +5692,7 @@
     "level": 236,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 407
@@ -5706,7 +5706,7 @@
     "level": 347,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 408
@@ -5720,7 +5720,7 @@
     "level": 247,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 409
@@ -5734,7 +5734,7 @@
     "level": 60,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 410
@@ -5748,7 +5748,7 @@
     "level": 69,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 411
@@ -5762,7 +5762,7 @@
     "level": 106,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 412
@@ -5776,7 +5776,7 @@
     "level": 441,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 413
@@ -5790,7 +5790,7 @@
     "level": 36,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 414
@@ -5804,7 +5804,7 @@
     "level": 221,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 415
@@ -5818,7 +5818,7 @@
     "level": 43,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 416
@@ -5832,7 +5832,7 @@
     "level": 225,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 417
@@ -5846,7 +5846,7 @@
     "level": 35,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 418
@@ -5860,7 +5860,7 @@
     "level": 97,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 419
@@ -5874,7 +5874,7 @@
     "level": 88,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 420
@@ -5888,7 +5888,7 @@
     "level": 55,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 421
@@ -5902,7 +5902,7 @@
     "level": 533,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 422
@@ -5916,7 +5916,7 @@
     "level": 142,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 423
@@ -5930,7 +5930,7 @@
     "level": 178,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 424
@@ -5944,7 +5944,7 @@
     "level": 45,
     "eloRanked": 1625,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 425
@@ -5958,7 +5958,7 @@
     "level": 86,
     "eloRanked": 1624,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 426
@@ -5972,7 +5972,7 @@
     "level": 343,
     "eloRanked": 1624,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 427
@@ -6630,7 +6630,7 @@
     "level": 265,
     "eloRanked": 1593,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 474
@@ -6644,7 +6644,7 @@
     "level": 55,
     "eloRanked": 1590,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 475
@@ -6658,7 +6658,7 @@
     "level": 54,
     "eloRanked": 1588,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 476
@@ -6672,7 +6672,7 @@
     "level": 668,
     "eloRanked": 1588,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 477
@@ -6686,24 +6686,10 @@
     "level": 212,
     "eloRanked": 1587,
     "eloChange": 0,
-    "rankChange": 1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 478
-  },
-  {
-    "id": 738635,
-    "username": "ThrawnbusIII",
-    "winsRanked": 12,
-    "lossesRanked": 15,
-    "division": "EMERALD_I",
-    "level": 115,
-    "eloRanked": 1587,
-    "eloChange": -9,
-    "rankChange": -5,
-    "wins": 0,
-    "losses": 1,
-    "rank": 479
   },
   {
     "id": 133950,
@@ -6714,10 +6700,10 @@
     "level": 279,
     "eloRanked": 1586,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 480
+    "rank": 479
   },
   {
     "id": 93310,
@@ -6728,10 +6714,10 @@
     "level": 213,
     "eloRanked": 1586,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 481
+    "rank": 480
   },
   {
     "id": 494234,
@@ -6742,10 +6728,10 @@
     "level": 136,
     "eloRanked": 1586,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 482
+    "rank": 481
   },
   {
     "id": 425263,
@@ -6756,10 +6742,10 @@
     "level": 72,
     "eloRanked": 1584,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 483
+    "rank": 482
   },
   {
     "id": 519796,
@@ -6770,24 +6756,10 @@
     "level": 47,
     "eloRanked": 1584,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 484
-  },
-  {
-    "id": 725328,
-    "username": "yami yogi",
-    "winsRanked": 34,
-    "lossesRanked": 83,
-    "division": "EMERALD_I",
-    "level": 30,
-    "eloRanked": 1583,
-    "eloChange": 26,
-    "rankChange": 43,
-    "wins": 4,
-    "losses": 3,
-    "rank": 485
+    "rank": 483
   },
   {
     "id": 201876,
@@ -6798,10 +6770,10 @@
     "level": 2166,
     "eloRanked": 1582,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 2,
     "wins": 0,
     "losses": 0,
-    "rank": 486
+    "rank": 484
   },
   {
     "id": 203624,
@@ -6812,10 +6784,10 @@
     "level": 259,
     "eloRanked": 1582,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 2,
     "wins": 0,
     "losses": 0,
-    "rank": 487
+    "rank": 485
   },
   {
     "id": 746985,
@@ -6826,10 +6798,10 @@
     "level": 16,
     "eloRanked": 1582,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 2,
     "wins": 0,
     "losses": 0,
-    "rank": 488
+    "rank": 486
   },
   {
     "id": 128451,
@@ -6840,10 +6812,10 @@
     "level": 158,
     "eloRanked": 1581,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 2,
     "wins": 0,
     "losses": 0,
-    "rank": 489
+    "rank": 487
   },
   {
     "id": 547494,
@@ -6854,10 +6826,24 @@
     "level": 289,
     "eloRanked": 1579,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 2,
     "wins": 0,
     "losses": 0,
-    "rank": 490
+    "rank": 488
+  },
+  {
+    "id": 738635,
+    "username": "ThrawnbusIII",
+    "winsRanked": 12,
+    "lossesRanked": 16,
+    "division": "EMERALD_I",
+    "level": 115,
+    "eloRanked": 1579,
+    "eloChange": -8,
+    "rankChange": -10,
+    "wins": 0,
+    "losses": 1,
+    "rank": 489
   },
   {
     "id": 522890,
@@ -6868,10 +6854,10 @@
     "level": 132,
     "eloRanked": 1579,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 491
+    "rank": 490
   },
   {
     "id": 506183,
@@ -6882,10 +6868,10 @@
     "level": 30,
     "eloRanked": 1577,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 492
+    "rank": 491
   },
   {
     "id": 437270,
@@ -6896,10 +6882,10 @@
     "level": 100,
     "eloRanked": 1576,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 493
+    "rank": 492
   },
   {
     "id": 619002,
@@ -6910,10 +6896,10 @@
     "level": 99,
     "eloRanked": 1576,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 494
+    "rank": 493
   },
   {
     "id": 433204,
@@ -6924,10 +6910,10 @@
     "level": 82,
     "eloRanked": 1575,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 495
+    "rank": 494
   },
   {
     "id": 658693,
@@ -6938,10 +6924,10 @@
     "level": 109,
     "eloRanked": 1575,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 496
+    "rank": 495
   },
   {
     "id": 578639,
@@ -6952,10 +6938,10 @@
     "level": 88,
     "eloRanked": 1575,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 497
+    "rank": 496
   },
   {
     "id": 300956,
@@ -6966,10 +6952,10 @@
     "level": 415,
     "eloRanked": 1575,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 498
+    "rank": 497
   },
   {
     "id": 667540,
@@ -6980,10 +6966,10 @@
     "level": 40,
     "eloRanked": 1575,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 1,
     "wins": 0,
     "losses": 0,
-    "rank": 499
+    "rank": 498
   },
   {
     "id": 748345,
@@ -6994,9 +6980,23 @@
     "level": 24,
     "eloRanked": 1575,
     "eloChange": 0,
-    "rankChange": -1,
-    "wins": 1,
-    "losses": 3,
+    "rankChange": 1,
+    "wins": 0,
+    "losses": 0,
+    "rank": 499
+  },
+  {
+    "id": 725328,
+    "username": "yami yogi",
+    "winsRanked": 34,
+    "lossesRanked": 87,
+    "division": "EMERALD_I",
+    "level": 31,
+    "eloRanked": 1575,
+    "eloChange": -8,
+    "rankChange": -15,
+    "wins": 0,
+    "losses": 4,
     "rank": 500
   },
   {
@@ -7008,7 +7008,7 @@
     "level": 118,
     "eloRanked": 1575,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 501
@@ -7022,7 +7022,7 @@
     "level": 77,
     "eloRanked": 1575,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 502
@@ -7036,7 +7036,7 @@
     "level": 35,
     "eloRanked": 1575,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 503
@@ -7050,7 +7050,7 @@
     "level": 130,
     "eloRanked": 1575,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 504
@@ -7064,7 +7064,7 @@
     "level": 113,
     "eloRanked": 1575,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 505
@@ -7078,7 +7078,7 @@
     "level": 106,
     "eloRanked": 1570,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 506
@@ -7092,7 +7092,7 @@
     "level": 268,
     "eloRanked": 1570,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 507
@@ -7106,7 +7106,7 @@
     "level": 245,
     "eloRanked": 1569,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 508
@@ -7120,7 +7120,7 @@
     "level": 148,
     "eloRanked": 1568,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 509
@@ -7134,7 +7134,7 @@
     "level": 268,
     "eloRanked": 1568,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 510
@@ -7148,7 +7148,7 @@
     "level": 143,
     "eloRanked": 1567,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 511
@@ -7162,7 +7162,7 @@
     "level": 680,
     "eloRanked": 1566,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 512
@@ -7176,7 +7176,7 @@
     "level": 194,
     "eloRanked": 1566,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 513
@@ -7190,7 +7190,7 @@
     "level": 528,
     "eloRanked": 1565,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 514
@@ -7204,7 +7204,7 @@
     "level": 450,
     "eloRanked": 1565,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 515
@@ -7218,7 +7218,7 @@
     "level": 76,
     "eloRanked": 1563,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 516
@@ -7232,7 +7232,7 @@
     "level": 53,
     "eloRanked": 1562,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 517
@@ -7246,7 +7246,7 @@
     "level": 51,
     "eloRanked": 1562,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 518
@@ -7260,7 +7260,7 @@
     "level": 544,
     "eloRanked": 1561,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 519
@@ -7274,7 +7274,7 @@
     "level": 261,
     "eloRanked": 1561,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 520
@@ -7288,7 +7288,7 @@
     "level": 95,
     "eloRanked": 1561,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 521
@@ -7302,7 +7302,7 @@
     "level": 255,
     "eloRanked": 1560,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 522
@@ -7316,7 +7316,7 @@
     "level": 98,
     "eloRanked": 1560,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 523
@@ -7330,7 +7330,7 @@
     "level": 206,
     "eloRanked": 1558,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 524
@@ -7344,7 +7344,7 @@
     "level": 215,
     "eloRanked": 1558,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 525
@@ -7358,7 +7358,7 @@
     "level": 250,
     "eloRanked": 1557,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 526
@@ -7372,7 +7372,7 @@
     "level": 231,
     "eloRanked": 1557,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 527
@@ -7386,7 +7386,7 @@
     "level": 231,
     "eloRanked": 1557,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 528
@@ -9369,14 +9369,14 @@
     "id": 641554,
     "username": "124",
     "winsRanked": 17,
-    "lossesRanked": 33,
+    "lossesRanked": 35,
     "division": "EMERALD_IV",
     "level": 183,
     "eloRanked": 1500,
     "eloChange": 0,
     "rankChange": 0,
     "wins": 0,
-    "losses": 0,
+    "losses": 2,
     "rank": 670
   },
   {
@@ -10066,6 +10066,20 @@
     "rank": 719
   },
   {
+    "id": 99665,
+    "username": "Brian",
+    "winsRanked": 3,
+    "lossesRanked": 1,
+    "division": "GOLD_II",
+    "level": 346,
+    "eloRanked": 1467,
+    "eloChange": 6,
+    "rankChange": 16,
+    "wins": 1,
+    "losses": 1,
+    "rank": 720
+  },
+  {
     "id": 722325,
     "username": "Gabriel2006",
     "winsRanked": 8,
@@ -10074,10 +10088,10 @@
     "level": 30,
     "eloRanked": 1467,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 720
+    "rank": 721
   },
   {
     "id": 742605,
@@ -10088,10 +10102,10 @@
     "level": 35,
     "eloRanked": 1467,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 721
+    "rank": 722
   },
   {
     "id": 712155,
@@ -10102,10 +10116,10 @@
     "level": 393,
     "eloRanked": 1466,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 722
+    "rank": 723
   },
   {
     "id": 743525,
@@ -10116,10 +10130,10 @@
     "level": 34,
     "eloRanked": 1465,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 723
+    "rank": 724
   },
   {
     "id": 176145,
@@ -10130,10 +10144,10 @@
     "level": 69,
     "eloRanked": 1465,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 724
+    "rank": 725
   },
   {
     "id": 697001,
@@ -10144,10 +10158,10 @@
     "level": 41,
     "eloRanked": 1465,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 725
+    "rank": 726
   },
   {
     "id": 654976,
@@ -10158,10 +10172,10 @@
     "level": 35,
     "eloRanked": 1464,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 726
+    "rank": 727
   },
   {
     "id": 564383,
@@ -10172,10 +10186,10 @@
     "level": 107,
     "eloRanked": 1464,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 727
+    "rank": 728
   },
   {
     "id": 218954,
@@ -10186,10 +10200,10 @@
     "level": 640,
     "eloRanked": 1463,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 728
+    "rank": 729
   },
   {
     "id": 429499,
@@ -10200,10 +10214,10 @@
     "level": 103,
     "eloRanked": 1463,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 729
+    "rank": 730
   },
   {
     "id": 743575,
@@ -10214,10 +10228,10 @@
     "level": 66,
     "eloRanked": 1462,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 730
+    "rank": 731
   },
   {
     "id": 489121,
@@ -10228,10 +10242,10 @@
     "level": 54,
     "eloRanked": 1462,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 731
+    "rank": 732
   },
   {
     "id": 726362,
@@ -10242,10 +10256,10 @@
     "level": 35,
     "eloRanked": 1462,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 732
+    "rank": 733
   },
   {
     "id": 746124,
@@ -10256,10 +10270,10 @@
     "level": 32,
     "eloRanked": 1462,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 733
+    "rank": 734
   },
   {
     "id": 531388,
@@ -10270,10 +10284,10 @@
     "level": 24,
     "eloRanked": 1462,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 734
+    "rank": 735
   },
   {
     "id": 272232,
@@ -10284,21 +10298,7 @@
     "level": 292,
     "eloRanked": 1462,
     "eloChange": 0,
-    "rankChange": 0,
-    "wins": 0,
-    "losses": 0,
-    "rank": 735
-  },
-  {
-    "id": 99665,
-    "username": "Brian",
-    "winsRanked": 2,
-    "lossesRanked": 0,
-    "division": "GOLD_II",
-    "level": 346,
-    "eloRanked": 1461,
-    "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
     "rank": 736
@@ -10489,14 +10489,14 @@
     "id": 725772,
     "username": "optionalsleep",
     "winsRanked": 7,
-    "lossesRanked": 12,
+    "lossesRanked": 13,
     "division": "GOLD_II",
     "level": 41,
     "eloRanked": 1453,
     "eloChange": 0,
     "rankChange": 0,
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "rank": 750
   },
   {
@@ -12614,6 +12614,20 @@
     "rank": 901
   },
   {
+    "id": 748420,
+    "username": "richardrich100",
+    "winsRanked": 8,
+    "lossesRanked": 10,
+    "division": "IRON_II",
+    "level": 23,
+    "eloRanked": 1372,
+    "eloChange": 95,
+    "rankChange": 175,
+    "wins": 4,
+    "losses": 1,
+    "rank": 902
+  },
+  {
     "id": 29455,
     "username": "DavidDreemur",
     "winsRanked": 2,
@@ -12622,10 +12636,10 @@
     "level": 520,
     "eloRanked": 1371,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 902
+    "rank": 903
   },
   {
     "id": 301793,
@@ -12636,10 +12650,10 @@
     "level": 138,
     "eloRanked": 1370,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 903
+    "rank": 904
   },
   {
     "id": 743369,
@@ -12650,10 +12664,10 @@
     "level": 36,
     "eloRanked": 1369,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 904
+    "rank": 905
   },
   {
     "id": 487353,
@@ -12664,10 +12678,10 @@
     "level": 540,
     "eloRanked": 1369,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 905
+    "rank": 906
   },
   {
     "id": 221367,
@@ -12678,10 +12692,10 @@
     "level": 152,
     "eloRanked": 1369,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 906
+    "rank": 907
   },
   {
     "id": 450929,
@@ -12692,10 +12706,10 @@
     "level": 104,
     "eloRanked": 1368,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 907
+    "rank": 908
   },
   {
     "id": 107734,
@@ -12706,10 +12720,10 @@
     "level": 180,
     "eloRanked": 1368,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 908
+    "rank": 909
   },
   {
     "id": 224187,
@@ -12720,10 +12734,10 @@
     "level": 39,
     "eloRanked": 1367,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 909
+    "rank": 910
   },
   {
     "id": 374746,
@@ -12734,10 +12748,10 @@
     "level": 55,
     "eloRanked": 1367,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 910
+    "rank": 911
   },
   {
     "id": 428673,
@@ -12748,10 +12762,10 @@
     "level": 59,
     "eloRanked": 1366,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 911
+    "rank": 912
   },
   {
     "id": 740125,
@@ -12762,10 +12776,10 @@
     "level": 28,
     "eloRanked": 1366,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 912
+    "rank": 913
   },
   {
     "id": 634661,
@@ -12776,10 +12790,10 @@
     "level": 192,
     "eloRanked": 1366,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 913
+    "rank": 914
   },
   {
     "id": 212757,
@@ -12790,10 +12804,10 @@
     "level": 145,
     "eloRanked": 1366,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 914
+    "rank": 915
   },
   {
     "id": 377212,
@@ -12804,10 +12818,10 @@
     "level": 75,
     "eloRanked": 1365,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 915
+    "rank": 916
   },
   {
     "id": 157532,
@@ -12818,10 +12832,10 @@
     "level": 267,
     "eloRanked": 1364,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 916
+    "rank": 917
   },
   {
     "id": 644423,
@@ -12832,10 +12846,10 @@
     "level": 66,
     "eloRanked": 1363,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 917
+    "rank": 918
   },
   {
     "id": 23821,
@@ -12846,10 +12860,10 @@
     "level": 33,
     "eloRanked": 1363,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 918
+    "rank": 919
   },
   {
     "id": 347725,
@@ -12860,10 +12874,10 @@
     "level": 160,
     "eloRanked": 1362,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 919
+    "rank": 920
   },
   {
     "id": 49404,
@@ -12874,10 +12888,10 @@
     "level": 44,
     "eloRanked": 1362,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 920
+    "rank": 921
   },
   {
     "id": 598238,
@@ -12888,10 +12902,10 @@
     "level": 157,
     "eloRanked": 1362,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 921
+    "rank": 922
   },
   {
     "id": 380832,
@@ -12902,10 +12916,10 @@
     "level": 79,
     "eloRanked": 1361,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 922
+    "rank": 923
   },
   {
     "id": 24911,
@@ -12916,10 +12930,10 @@
     "level": 290,
     "eloRanked": 1361,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 923
+    "rank": 924
   },
   {
     "id": 680622,
@@ -12930,10 +12944,10 @@
     "level": 22,
     "eloRanked": 1360,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 924
+    "rank": 925
   },
   {
     "id": 46474,
@@ -12944,10 +12958,10 @@
     "level": 23,
     "eloRanked": 1360,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 925
+    "rank": 926
   },
   {
     "id": 186091,
@@ -12958,10 +12972,10 @@
     "level": 54,
     "eloRanked": 1360,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 926
+    "rank": 927
   },
   {
     "id": 454308,
@@ -12972,10 +12986,10 @@
     "level": 34,
     "eloRanked": 1358,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 927
+    "rank": 928
   },
   {
     "id": 727187,
@@ -12986,10 +13000,10 @@
     "level": 87,
     "eloRanked": 1357,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 928
+    "rank": 929
   },
   {
     "id": 262156,
@@ -13000,10 +13014,10 @@
     "level": 162,
     "eloRanked": 1356,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 929
+    "rank": 930
   },
   {
     "id": 222362,
@@ -13014,10 +13028,10 @@
     "level": 1009,
     "eloRanked": 1355,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 930
+    "rank": 931
   },
   {
     "id": 692958,
@@ -13028,10 +13042,24 @@
     "level": 21,
     "eloRanked": 1355,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 931
+    "rank": 932
+  },
+  {
+    "id": 503602,
+    "username": "BigBrotherIke",
+    "winsRanked": 3,
+    "lossesRanked": 1,
+    "division": "IRON_II",
+    "level": 222,
+    "eloRanked": 1354,
+    "eloChange": 11,
+    "rankChange": 15,
+    "wins": 1,
+    "losses": 0,
+    "rank": 933
   },
   {
     "id": 381111,
@@ -13042,10 +13070,10 @@
     "level": 30,
     "eloRanked": 1353,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 932
+    "rank": 934
   },
   {
     "id": 563652,
@@ -13056,10 +13084,10 @@
     "level": 96,
     "eloRanked": 1353,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 933
+    "rank": 935
   },
   {
     "id": 738638,
@@ -13070,10 +13098,10 @@
     "level": 25,
     "eloRanked": 1352,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 934
+    "rank": 936
   },
   {
     "id": 742666,
@@ -13084,10 +13112,10 @@
     "level": 23,
     "eloRanked": 1350,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 935
+    "rank": 937
   },
   {
     "id": 186198,
@@ -13098,10 +13126,10 @@
     "level": 65,
     "eloRanked": 1350,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 936
+    "rank": 938
   },
   {
     "id": 518137,
@@ -13112,10 +13140,10 @@
     "level": 21,
     "eloRanked": 1350,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 937
+    "rank": 939
   },
   {
     "id": 723742,
@@ -13126,10 +13154,10 @@
     "level": 17,
     "eloRanked": 1350,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 938
+    "rank": 940
   },
   {
     "id": 84699,
@@ -13140,10 +13168,10 @@
     "level": 94,
     "eloRanked": 1348,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 939
+    "rank": 941
   },
   {
     "id": 610575,
@@ -13154,10 +13182,10 @@
     "level": 88,
     "eloRanked": 1348,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 940
+    "rank": 942
   },
   {
     "id": 235796,
@@ -13168,10 +13196,10 @@
     "level": 71,
     "eloRanked": 1347,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 941
+    "rank": 943
   },
   {
     "id": 719647,
@@ -13182,10 +13210,10 @@
     "level": 46,
     "eloRanked": 1346,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 942
+    "rank": 944
   },
   {
     "id": 241217,
@@ -13196,10 +13224,10 @@
     "level": 324,
     "eloRanked": 1346,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 943
+    "rank": 945
   },
   {
     "id": 669511,
@@ -13210,10 +13238,10 @@
     "level": 90,
     "eloRanked": 1345,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 944
+    "rank": 946
   },
   {
     "id": 613951,
@@ -13224,10 +13252,10 @@
     "level": 130,
     "eloRanked": 1345,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 945
+    "rank": 947
   },
   {
     "id": 42864,
@@ -13238,10 +13266,10 @@
     "level": 122,
     "eloRanked": 1344,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 946
+    "rank": 948
   },
   {
     "id": 724634,
@@ -13252,24 +13280,10 @@
     "level": 20,
     "eloRanked": 1343,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 947
-  },
-  {
-    "id": 503602,
-    "username": "BigBrotherIke",
-    "winsRanked": 2,
-    "lossesRanked": 1,
-    "division": "IRON_III",
-    "level": 222,
-    "eloRanked": 1343,
-    "eloChange": 15,
-    "rankChange": 26,
-    "wins": 1,
-    "losses": 1,
-    "rank": 948
+    "rank": 949
   },
   {
     "id": 475704,
@@ -13283,7 +13297,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 949
+    "rank": 950
   },
   {
     "id": 359930,
@@ -13297,7 +13311,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 950
+    "rank": 951
   },
   {
     "id": 497150,
@@ -13311,7 +13325,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 951
+    "rank": 952
   },
   {
     "id": 282100,
@@ -13325,7 +13339,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 952
+    "rank": 953
   },
   {
     "id": 17915,
@@ -13339,7 +13353,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 953
+    "rank": 954
   },
   {
     "id": 171258,
@@ -13353,7 +13367,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 954
+    "rank": 955
   },
   {
     "id": 720709,
@@ -13367,7 +13381,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 955
+    "rank": 956
   },
   {
     "id": 507262,
@@ -13381,7 +13395,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 956
+    "rank": 957
   },
   {
     "id": 651720,
@@ -13395,7 +13409,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 957
+    "rank": 958
   },
   {
     "id": 740689,
@@ -13409,7 +13423,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 958
+    "rank": 959
   },
   {
     "id": 489820,
@@ -13423,7 +13437,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 959
+    "rank": 960
   },
   {
     "id": 572604,
@@ -13437,7 +13451,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 960
+    "rank": 961
   },
   {
     "id": 330333,
@@ -13451,7 +13465,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 961
+    "rank": 962
   },
   {
     "id": 746321,
@@ -13465,7 +13479,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 962
+    "rank": 963
   },
   {
     "id": 49044,
@@ -13479,7 +13493,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 963
+    "rank": 964
   },
   {
     "id": 17371,
@@ -13493,7 +13507,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 964
+    "rank": 965
   },
   {
     "id": 405067,
@@ -13507,7 +13521,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 965
+    "rank": 966
   },
   {
     "id": 146130,
@@ -13521,7 +13535,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 966
+    "rank": 967
   },
   {
     "id": 745211,
@@ -13535,7 +13549,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 967
+    "rank": 968
   },
   {
     "id": 506727,
@@ -13549,7 +13563,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 968
+    "rank": 969
   },
   {
     "id": 624540,
@@ -13563,7 +13577,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 969
+    "rank": 970
   },
   {
     "id": 513434,
@@ -13577,7 +13591,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 970
+    "rank": 971
   },
   {
     "id": 237523,
@@ -13591,7 +13605,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 971
+    "rank": 972
   },
   {
     "id": 744938,
@@ -13605,7 +13619,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 972
+    "rank": 973
   },
   {
     "id": 724249,
@@ -13619,7 +13633,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 973
+    "rank": 974
   },
   {
     "id": 70051,
@@ -13633,7 +13647,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 974
+    "rank": 975
   },
   {
     "id": 138078,
@@ -13644,10 +13658,10 @@
     "level": 216,
     "eloRanked": 1328,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 975
+    "rank": 976
   },
   {
     "id": 30452,
@@ -13658,10 +13672,10 @@
     "level": 137,
     "eloRanked": 1328,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 976
+    "rank": 977
   },
   {
     "id": 469483,
@@ -13672,10 +13686,10 @@
     "level": 12,
     "eloRanked": 1328,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 977
+    "rank": 978
   },
   {
     "id": 479981,
@@ -13686,10 +13700,10 @@
     "level": 365,
     "eloRanked": 1328,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 978
+    "rank": 979
   },
   {
     "id": 723194,
@@ -13700,10 +13714,10 @@
     "level": 12,
     "eloRanked": 1327,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 979
+    "rank": 980
   },
   {
     "id": 747899,
@@ -13711,13 +13725,13 @@
     "winsRanked": 1,
     "lossesRanked": 1,
     "division": "IRON_III",
-    "level": 24,
+    "level": 26,
     "eloRanked": 1327,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 980
+    "rank": 981
   },
   {
     "id": 627248,
@@ -13728,10 +13742,10 @@
     "level": 97,
     "eloRanked": 1326,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
-    "losses": 1,
-    "rank": 981
+    "losses": 0,
+    "rank": 982
   },
   {
     "id": 584210,
@@ -13742,10 +13756,10 @@
     "level": 117,
     "eloRanked": 1325,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 982
+    "rank": 983
   },
   {
     "id": 740122,
@@ -13756,10 +13770,10 @@
     "level": 50,
     "eloRanked": 1325,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 983
+    "rank": 984
   },
   {
     "id": 31627,
@@ -13770,10 +13784,10 @@
     "level": 167,
     "eloRanked": 1324,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 984
+    "rank": 985
   },
   {
     "id": 748264,
@@ -13784,10 +13798,10 @@
     "level": 21,
     "eloRanked": 1324,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 985
+    "rank": 986
   },
   {
     "id": 435495,
@@ -13798,10 +13812,10 @@
     "level": 124,
     "eloRanked": 1323,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 986
+    "rank": 987
   },
   {
     "id": 512783,
@@ -13812,10 +13826,10 @@
     "level": 27,
     "eloRanked": 1323,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 987
+    "rank": 988
   },
   {
     "id": 659600,
@@ -13826,10 +13840,10 @@
     "level": 70,
     "eloRanked": 1323,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 988
+    "rank": 989
   },
   {
     "id": 647862,
@@ -13840,10 +13854,10 @@
     "level": 36,
     "eloRanked": 1323,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 989
+    "rank": 990
   },
   {
     "id": 748343,
@@ -13854,10 +13868,10 @@
     "level": 14,
     "eloRanked": 1322,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 990
+    "rank": 991
   },
   {
     "id": 740667,
@@ -13868,10 +13882,10 @@
     "level": 32,
     "eloRanked": 1320,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 991
+    "rank": 992
   },
   {
     "id": 436416,
@@ -13882,10 +13896,10 @@
     "level": 85,
     "eloRanked": 1319,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 992
+    "rank": 993
   },
   {
     "id": 742877,
@@ -13896,10 +13910,10 @@
     "level": 38,
     "eloRanked": 1319,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 993
+    "rank": 994
   },
   {
     "id": 747434,
@@ -13910,10 +13924,10 @@
     "level": 23,
     "eloRanked": 1319,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 994
+    "rank": 995
   },
   {
     "id": 99320,
@@ -13924,10 +13938,10 @@
     "level": 39,
     "eloRanked": 1318,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 995
+    "rank": 996
   },
   {
     "id": 741942,
@@ -13938,10 +13952,10 @@
     "level": 26,
     "eloRanked": 1317,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 996
+    "rank": 997
   },
   {
     "id": 552967,
@@ -13952,10 +13966,10 @@
     "level": 153,
     "eloRanked": 1317,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 997
+    "rank": 998
   },
   {
     "id": 692590,
@@ -13966,10 +13980,10 @@
     "level": 17,
     "eloRanked": 1316,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 998
+    "rank": 999
   },
   {
     "id": 677899,
@@ -13980,10 +13994,10 @@
     "level": 30,
     "eloRanked": 1315,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 999
+    "rank": 1000
   },
   {
     "id": 439790,
@@ -13994,10 +14008,10 @@
     "level": 56,
     "eloRanked": 1315,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1000
+    "rank": 1001
   },
   {
     "id": 626036,
@@ -14008,10 +14022,10 @@
     "level": 67,
     "eloRanked": 1314,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1001
+    "rank": 1002
   },
   {
     "id": 747239,
@@ -14022,10 +14036,10 @@
     "level": 20,
     "eloRanked": 1314,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1002
+    "rank": 1003
   },
   {
     "id": 411120,
@@ -14036,10 +14050,10 @@
     "level": 17,
     "eloRanked": 1313,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1003
+    "rank": 1004
   },
   {
     "id": 650763,
@@ -14050,10 +14064,10 @@
     "level": 461,
     "eloRanked": 1313,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1004
+    "rank": 1005
   },
   {
     "id": 567825,
@@ -14064,10 +14078,10 @@
     "level": 94,
     "eloRanked": 1312,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1005
+    "rank": 1006
   },
   {
     "id": 745592,
@@ -14078,10 +14092,10 @@
     "level": 19,
     "eloRanked": 1311,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1006
+    "rank": 1007
   },
   {
     "id": 748158,
@@ -14092,10 +14106,10 @@
     "level": 18,
     "eloRanked": 1309,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1007
+    "rank": 1008
   },
   {
     "id": 131222,
@@ -14106,10 +14120,10 @@
     "level": 159,
     "eloRanked": 1308,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1008
+    "rank": 1009
   },
   {
     "id": 641449,
@@ -14120,10 +14134,10 @@
     "level": 25,
     "eloRanked": 1308,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1009
+    "rank": 1010
   },
   {
     "id": 186115,
@@ -14134,10 +14148,10 @@
     "level": 105,
     "eloRanked": 1308,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1010
+    "rank": 1011
   },
   {
     "id": 279151,
@@ -14148,10 +14162,10 @@
     "level": 69,
     "eloRanked": 1307,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1011
+    "rank": 1012
   },
   {
     "id": 584853,
@@ -14162,10 +14176,10 @@
     "level": 167,
     "eloRanked": 1307,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1012
+    "rank": 1013
   },
   {
     "id": 562775,
@@ -14176,10 +14190,10 @@
     "level": 961,
     "eloRanked": 1307,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1013
+    "rank": 1014
   },
   {
     "id": 723477,
@@ -14190,10 +14204,24 @@
     "level": 83,
     "eloRanked": 1306,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1014
+    "rank": 1015
+  },
+  {
+    "id": 115084,
+    "username": "Zelos1826",
+    "winsRanked": 4,
+    "lossesRanked": 3,
+    "division": "IRON_IV",
+    "level": 819,
+    "eloRanked": 1306,
+    "eloChange": 40,
+    "rankChange": 88,
+    "wins": 2,
+    "losses": 1,
+    "rank": 1016
   },
   {
     "id": 724866,
@@ -14204,10 +14232,10 @@
     "level": 28,
     "eloRanked": 1305,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1015
+    "rank": 1017
   },
   {
     "id": 471381,
@@ -14218,10 +14246,10 @@
     "level": 13,
     "eloRanked": 1304,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1016
+    "rank": 1018
   },
   {
     "id": 150300,
@@ -14232,10 +14260,10 @@
     "level": 20,
     "eloRanked": 1304,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1017
+    "rank": 1019
   },
   {
     "id": 748176,
@@ -14246,10 +14274,10 @@
     "level": 17,
     "eloRanked": 1303,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1018
+    "rank": 1020
   },
   {
     "id": 747112,
@@ -14260,10 +14288,10 @@
     "level": 19,
     "eloRanked": 1303,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1019
+    "rank": 1021
   },
   {
     "id": 555215,
@@ -14274,10 +14302,10 @@
     "level": 109,
     "eloRanked": 1302,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1020
+    "rank": 1022
   },
   {
     "id": 373816,
@@ -14288,10 +14316,10 @@
     "level": 64,
     "eloRanked": 1302,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1021
+    "rank": 1023
   },
   {
     "id": 515388,
@@ -14302,10 +14330,10 @@
     "level": 106,
     "eloRanked": 1302,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1022
+    "rank": 1024
   },
   {
     "id": 748259,
@@ -14316,10 +14344,10 @@
     "level": 20,
     "eloRanked": 1301,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1023
+    "rank": 1025
   },
   {
     "id": 6383,
@@ -14330,10 +14358,10 @@
     "level": 166,
     "eloRanked": 1301,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1024
+    "rank": 1026
   },
   {
     "id": 242289,
@@ -14344,10 +14372,10 @@
     "level": 185,
     "eloRanked": 1301,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1025
+    "rank": 1027
   },
   {
     "id": 394635,
@@ -14358,10 +14386,24 @@
     "level": 174,
     "eloRanked": 1300,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1026
+    "rank": 1028
+  },
+  {
+    "id": 521728,
+    "username": "Doomerdy",
+    "winsRanked": 4,
+    "lossesRanked": 2,
+    "division": "IRON_IV",
+    "level": 38,
+    "eloRanked": 1300,
+    "eloChange": 30,
+    "rankChange": 65,
+    "wins": 1,
+    "losses": 0,
+    "rank": 1029
   },
   {
     "id": 743281,
@@ -14372,10 +14414,10 @@
     "level": 24,
     "eloRanked": 1300,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1027
+    "rank": 1030
   },
   {
     "id": 723470,
@@ -14386,10 +14428,10 @@
     "level": 21,
     "eloRanked": 1300,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1028
+    "rank": 1031
   },
   {
     "id": 314792,
@@ -14400,10 +14442,10 @@
     "level": 430,
     "eloRanked": 1299,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1029
+    "rank": 1032
   },
   {
     "id": 632552,
@@ -14414,10 +14456,10 @@
     "level": 54,
     "eloRanked": 1299,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1030
+    "rank": 1033
   },
   {
     "id": 591092,
@@ -14428,10 +14470,10 @@
     "level": 45,
     "eloRanked": 1299,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1031
+    "rank": 1034
   },
   {
     "id": 681885,
@@ -14442,10 +14484,10 @@
     "level": 49,
     "eloRanked": 1298,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1032
+    "rank": 1035
   },
   {
     "id": 741613,
@@ -14456,10 +14498,10 @@
     "level": 34,
     "eloRanked": 1298,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1033
+    "rank": 1036
   },
   {
     "id": 746921,
@@ -14470,10 +14512,10 @@
     "level": 13,
     "eloRanked": 1297,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1034
+    "rank": 1037
   },
   {
     "id": 23490,
@@ -14484,10 +14526,10 @@
     "level": 46,
     "eloRanked": 1296,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1035
+    "rank": 1038
   },
   {
     "id": 396954,
@@ -14498,10 +14540,10 @@
     "level": 29,
     "eloRanked": 1296,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1036
+    "rank": 1039
   },
   {
     "id": 603914,
@@ -14512,10 +14554,10 @@
     "level": 35,
     "eloRanked": 1296,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1037
+    "rank": 1040
   },
   {
     "id": 106062,
@@ -14526,10 +14568,10 @@
     "level": 43,
     "eloRanked": 1296,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1038
+    "rank": 1041
   },
   {
     "id": 480375,
@@ -14540,10 +14582,10 @@
     "level": 51,
     "eloRanked": 1296,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1039
+    "rank": 1042
   },
   {
     "id": 721910,
@@ -14554,10 +14596,10 @@
     "level": 95,
     "eloRanked": 1295,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1040
+    "rank": 1043
   },
   {
     "id": 601091,
@@ -14568,10 +14610,10 @@
     "level": 107,
     "eloRanked": 1294,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1041
+    "rank": 1044
   },
   {
     "id": 396566,
@@ -14582,10 +14624,10 @@
     "level": 196,
     "eloRanked": 1294,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1042
+    "rank": 1045
   },
   {
     "id": 652806,
@@ -14596,10 +14638,10 @@
     "level": 34,
     "eloRanked": 1293,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1043
+    "rank": 1046
   },
   {
     "id": 724542,
@@ -14610,10 +14652,10 @@
     "level": 134,
     "eloRanked": 1292,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1044
+    "rank": 1047
   },
   {
     "id": 539310,
@@ -14624,10 +14666,10 @@
     "level": 49,
     "eloRanked": 1292,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1045
+    "rank": 1048
   },
   {
     "id": 474635,
@@ -14638,10 +14680,10 @@
     "level": 154,
     "eloRanked": 1292,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1046
+    "rank": 1049
   },
   {
     "id": 655241,
@@ -14652,10 +14694,10 @@
     "level": 216,
     "eloRanked": 1291,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1047
+    "rank": 1050
   },
   {
     "id": 449938,
@@ -14666,10 +14708,10 @@
     "level": 257,
     "eloRanked": 1291,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1048
+    "rank": 1051
   },
   {
     "id": 606393,
@@ -14680,10 +14722,10 @@
     "level": 134,
     "eloRanked": 1289,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1049
+    "rank": 1052
   },
   {
     "id": 748025,
@@ -14694,10 +14736,10 @@
     "level": 22,
     "eloRanked": 1289,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1050
+    "rank": 1053
   },
   {
     "id": 559165,
@@ -14708,10 +14750,10 @@
     "level": 28,
     "eloRanked": 1289,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1051
+    "rank": 1054
   },
   {
     "id": 748306,
@@ -14722,10 +14764,10 @@
     "level": 12,
     "eloRanked": 1288,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1052
+    "rank": 1055
   },
   {
     "id": 748483,
@@ -14736,10 +14778,10 @@
     "level": 19,
     "eloRanked": 1288,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1053
+    "rank": 1056
   },
   {
     "id": 654437,
@@ -14750,10 +14792,10 @@
     "level": 57,
     "eloRanked": 1287,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1054
+    "rank": 1057
   },
   {
     "id": 654417,
@@ -14764,10 +14806,10 @@
     "level": 37,
     "eloRanked": 1287,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1055
+    "rank": 1058
   },
   {
     "id": 513989,
@@ -14778,10 +14820,10 @@
     "level": 56,
     "eloRanked": 1287,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1056
+    "rank": 1059
   },
   {
     "id": 380379,
@@ -14792,10 +14834,10 @@
     "level": 28,
     "eloRanked": 1287,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1057
+    "rank": 1060
   },
   {
     "id": 675674,
@@ -14806,10 +14848,10 @@
     "level": 102,
     "eloRanked": 1286,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1058
+    "rank": 1061
   },
   {
     "id": 345388,
@@ -14820,10 +14862,10 @@
     "level": 181,
     "eloRanked": 1286,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1059
+    "rank": 1062
   },
   {
     "id": 678372,
@@ -14834,10 +14876,10 @@
     "level": 98,
     "eloRanked": 1286,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1060
+    "rank": 1063
   },
   {
     "id": 554972,
@@ -14848,10 +14890,10 @@
     "level": 229,
     "eloRanked": 1284,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1061
+    "rank": 1064
   },
   {
     "id": 601341,
@@ -14862,10 +14904,10 @@
     "level": 22,
     "eloRanked": 1284,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1062
+    "rank": 1065
   },
   {
     "id": 741785,
@@ -14876,10 +14918,10 @@
     "level": 21,
     "eloRanked": 1283,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1063
+    "rank": 1066
   },
   {
     "id": 748090,
@@ -14890,10 +14932,10 @@
     "level": 13,
     "eloRanked": 1283,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1064
+    "rank": 1067
   },
   {
     "id": 631523,
@@ -14904,10 +14946,10 @@
     "level": 52,
     "eloRanked": 1283,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1065
+    "rank": 1068
   },
   {
     "id": 636456,
@@ -14918,10 +14960,10 @@
     "level": 89,
     "eloRanked": 1282,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1066
+    "rank": 1069
   },
   {
     "id": 652607,
@@ -14932,10 +14974,10 @@
     "level": 21,
     "eloRanked": 1282,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1067
+    "rank": 1070
   },
   {
     "id": 645375,
@@ -14946,10 +14988,10 @@
     "level": 45,
     "eloRanked": 1282,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1068
+    "rank": 1071
   },
   {
     "id": 649607,
@@ -14960,10 +15002,10 @@
     "level": 108,
     "eloRanked": 1282,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1069
+    "rank": 1072
   },
   {
     "id": 634782,
@@ -14974,10 +15016,10 @@
     "level": 101,
     "eloRanked": 1282,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1070
+    "rank": 1073
   },
   {
     "id": 161230,
@@ -14988,10 +15030,10 @@
     "level": 31,
     "eloRanked": 1281,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1071
+    "rank": 1074
   },
   {
     "id": 433736,
@@ -15002,10 +15044,10 @@
     "level": 50,
     "eloRanked": 1280,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1072
+    "rank": 1075
   },
   {
     "id": 77439,
@@ -15016,10 +15058,10 @@
     "level": 498,
     "eloRanked": 1280,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1073
+    "rank": 1076
   },
   {
     "id": 570111,
@@ -15030,10 +15072,10 @@
     "level": 271,
     "eloRanked": 1278,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1074
+    "rank": 1077
   },
   {
     "id": 562834,
@@ -15044,10 +15086,10 @@
     "level": 155,
     "eloRanked": 1277,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1075
+    "rank": 1078
   },
   {
     "id": 570941,
@@ -15058,24 +15100,10 @@
     "level": 120,
     "eloRanked": 1277,
     "eloChange": 0,
-    "rankChange": 0,
+    "rankChange": -3,
     "wins": 0,
     "losses": 0,
-    "rank": 1076
-  },
-  {
-    "id": 748420,
-    "username": "richardrich100",
-    "winsRanked": 4,
-    "lossesRanked": 9,
-    "division": "COPPER_I",
-    "level": 22,
-    "eloRanked": 1277,
-    "eloChange": 38,
-    "rankChange": 90,
-    "wins": 2,
-    "losses": 3,
-    "rank": 1077
+    "rank": 1079
   },
   {
     "id": 748428,
@@ -15086,10 +15114,10 @@
     "level": 15,
     "eloRanked": 1277,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1078
+    "rank": 1080
   },
   {
     "id": 430586,
@@ -15100,10 +15128,10 @@
     "level": 33,
     "eloRanked": 1276,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1079
+    "rank": 1081
   },
   {
     "id": 650779,
@@ -15114,10 +15142,10 @@
     "level": 30,
     "eloRanked": 1276,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1080
+    "rank": 1082
   },
   {
     "id": 484250,
@@ -15128,10 +15156,10 @@
     "level": 31,
     "eloRanked": 1276,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1081
+    "rank": 1083
   },
   {
     "id": 78382,
@@ -15142,10 +15170,10 @@
     "level": 559,
     "eloRanked": 1275,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1082
+    "rank": 1084
   },
   {
     "id": 739639,
@@ -15156,10 +15184,10 @@
     "level": 18,
     "eloRanked": 1275,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1083
+    "rank": 1085
   },
   {
     "id": 46500,
@@ -15170,10 +15198,10 @@
     "level": 280,
     "eloRanked": 1274,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1084
+    "rank": 1086
   },
   {
     "id": 64847,
@@ -15184,10 +15212,10 @@
     "level": 219,
     "eloRanked": 1274,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1085
+    "rank": 1087
   },
   {
     "id": 584060,
@@ -15198,10 +15226,10 @@
     "level": 101,
     "eloRanked": 1274,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1086
+    "rank": 1088
   },
   {
     "id": 721370,
@@ -15212,10 +15240,10 @@
     "level": 25,
     "eloRanked": 1274,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1087
+    "rank": 1089
   },
   {
     "id": 746438,
@@ -15226,10 +15254,10 @@
     "level": 15,
     "eloRanked": 1274,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1088
+    "rank": 1090
   },
   {
     "id": 471770,
@@ -15240,10 +15268,10 @@
     "level": 67,
     "eloRanked": 1272,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1089
+    "rank": 1091
   },
   {
     "id": 589016,
@@ -15254,10 +15282,10 @@
     "level": 42,
     "eloRanked": 1272,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1090
+    "rank": 1092
   },
   {
     "id": 728417,
@@ -15268,10 +15296,10 @@
     "level": 13,
     "eloRanked": 1271,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1091
+    "rank": 1093
   },
   {
     "id": 578526,
@@ -15282,10 +15310,10 @@
     "level": 192,
     "eloRanked": 1270,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1092
+    "rank": 1094
   },
   {
     "id": 431279,
@@ -15296,24 +15324,10 @@
     "level": 134,
     "eloRanked": 1270,
     "eloChange": 0,
-    "rankChange": -1,
+    "rankChange": -2,
     "wins": 0,
     "losses": 0,
-    "rank": 1093
-  },
-  {
-    "id": 521728,
-    "username": "Doomerdy",
-    "winsRanked": 3,
-    "lossesRanked": 2,
-    "division": "COPPER_II",
-    "level": 38,
-    "eloRanked": 1270,
-    "eloChange": 0,
-    "rankChange": -1,
-    "wins": 0,
-    "losses": 0,
-    "rank": 1094
+    "rank": 1095
   },
   {
     "id": 593219,
@@ -15327,7 +15341,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1095
+    "rank": 1096
   },
   {
     "id": 366743,
@@ -15341,7 +15355,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1096
+    "rank": 1097
   },
   {
     "id": 566961,
@@ -15355,7 +15369,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1097
+    "rank": 1098
   },
   {
     "id": 515041,
@@ -15369,7 +15383,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1098
+    "rank": 1099
   },
   {
     "id": 109796,
@@ -15383,7 +15397,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1099
+    "rank": 1100
   },
   {
     "id": 671855,
@@ -15397,7 +15411,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1100
+    "rank": 1101
   },
   {
     "id": 558232,
@@ -15411,7 +15425,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1101
+    "rank": 1102
   },
   {
     "id": 714632,
@@ -15425,7 +15439,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1102
+    "rank": 1103
   },
   {
     "id": 414558,
@@ -15439,16 +15453,6 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1103
-  },
-  {
-    "id": 115084,
-    "username": "Zelos1826",
-    "winsRanked": 2,
-    "lossesRanked": 2,
-    "division": "COPPER_II",
-    "level": 818,
-    "eloRanked": 1266,
     "rank": 1104
   },
   {
@@ -15460,7 +15464,7 @@
     "level": 102,
     "eloRanked": 1266,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1105
@@ -15474,7 +15478,7 @@
     "level": 32,
     "eloRanked": 1265,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1106
@@ -15488,7 +15492,7 @@
     "level": 197,
     "eloRanked": 1263,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1107
@@ -15502,7 +15506,7 @@
     "level": 30,
     "eloRanked": 1263,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1108
@@ -15516,7 +15520,7 @@
     "level": 45,
     "eloRanked": 1262,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1109
@@ -15530,7 +15534,7 @@
     "level": 27,
     "eloRanked": 1262,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1110
@@ -15544,7 +15548,7 @@
     "level": 23,
     "eloRanked": 1262,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1111
@@ -15558,7 +15562,7 @@
     "level": 27,
     "eloRanked": 1262,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1112
@@ -15572,7 +15576,7 @@
     "level": 78,
     "eloRanked": 1262,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1113
@@ -15586,7 +15590,7 @@
     "level": 54,
     "eloRanked": 1261,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1114
@@ -15600,7 +15604,7 @@
     "level": 308,
     "eloRanked": 1261,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1115
@@ -15614,7 +15618,7 @@
     "level": 17,
     "eloRanked": 1261,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1116
@@ -15628,7 +15632,7 @@
     "level": 62,
     "eloRanked": 1260,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1117
@@ -15642,7 +15646,7 @@
     "level": 211,
     "eloRanked": 1260,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1118
@@ -15656,7 +15660,7 @@
     "level": 13,
     "eloRanked": 1260,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1119
@@ -15670,7 +15674,7 @@
     "level": 249,
     "eloRanked": 1259,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1120
@@ -15684,7 +15688,7 @@
     "level": 11,
     "eloRanked": 1259,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1121
@@ -15698,7 +15702,7 @@
     "level": 147,
     "eloRanked": 1258,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1122
@@ -15712,7 +15716,7 @@
     "level": 15,
     "eloRanked": 1258,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1123
@@ -15726,7 +15730,7 @@
     "level": 139,
     "eloRanked": 1258,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1124
@@ -15740,7 +15744,7 @@
     "level": 281,
     "eloRanked": 1258,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1125
@@ -15754,7 +15758,7 @@
     "level": 65,
     "eloRanked": 1257,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1126
@@ -15768,7 +15772,7 @@
     "level": 57,
     "eloRanked": 1257,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1127
@@ -15782,7 +15786,7 @@
     "level": 72,
     "eloRanked": 1256,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1128
@@ -15796,7 +15800,7 @@
     "level": 38,
     "eloRanked": 1255,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1129
@@ -15810,7 +15814,7 @@
     "level": 21,
     "eloRanked": 1255,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1130
@@ -15824,7 +15828,7 @@
     "level": 31,
     "eloRanked": 1254,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1131
@@ -15838,7 +15842,7 @@
     "level": 128,
     "eloRanked": 1254,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1132
@@ -15852,7 +15856,7 @@
     "level": 28,
     "eloRanked": 1253,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1133
@@ -15866,7 +15870,7 @@
     "level": 246,
     "eloRanked": 1253,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1134
@@ -15880,7 +15884,7 @@
     "level": 356,
     "eloRanked": 1252,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1135
@@ -15894,7 +15898,7 @@
     "level": 91,
     "eloRanked": 1252,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1136
@@ -15908,7 +15912,7 @@
     "level": 15,
     "eloRanked": 1252,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1137
@@ -15922,7 +15926,7 @@
     "level": 203,
     "eloRanked": 1252,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1138
@@ -15936,7 +15940,7 @@
     "level": 45,
     "eloRanked": 1252,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1139
@@ -15950,7 +15954,7 @@
     "level": 31,
     "eloRanked": 1252,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1140
@@ -15964,7 +15968,7 @@
     "level": 191,
     "eloRanked": 1251,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1141
@@ -15978,7 +15982,7 @@
     "level": 31,
     "eloRanked": 1251,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1142
@@ -15992,7 +15996,7 @@
     "level": 51,
     "eloRanked": 1250,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1143
@@ -16006,7 +16010,7 @@
     "level": 106,
     "eloRanked": 1249,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1144
@@ -16020,7 +16024,7 @@
     "level": 63,
     "eloRanked": 1248,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1145
@@ -16034,7 +16038,7 @@
     "level": 61,
     "eloRanked": 1248,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1146
@@ -16048,7 +16052,7 @@
     "level": 31,
     "eloRanked": 1247,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1147
@@ -16062,9 +16066,9 @@
     "level": 15,
     "eloRanked": 1246,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
-    "losses": 1,
+    "losses": 0,
     "rank": 1148
   },
   {
@@ -16076,7 +16080,7 @@
     "level": 38,
     "eloRanked": 1246,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1149
@@ -16090,7 +16094,7 @@
     "level": 23,
     "eloRanked": 1245,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1150
@@ -16104,7 +16108,7 @@
     "level": 12,
     "eloRanked": 1245,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1151
@@ -16118,7 +16122,7 @@
     "level": 30,
     "eloRanked": 1244,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1152
@@ -16132,7 +16136,7 @@
     "level": 25,
     "eloRanked": 1244,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1153
@@ -16146,7 +16150,7 @@
     "level": 11,
     "eloRanked": 1244,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1154
@@ -16160,7 +16164,7 @@
     "level": 12,
     "eloRanked": 1244,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1155
@@ -16174,7 +16178,7 @@
     "level": 16,
     "eloRanked": 1244,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1156
@@ -16188,7 +16192,7 @@
     "level": 18,
     "eloRanked": 1243,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1157
@@ -16202,7 +16206,7 @@
     "level": 39,
     "eloRanked": 1242,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1158
@@ -16216,7 +16220,7 @@
     "level": 101,
     "eloRanked": 1242,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1159
@@ -16230,7 +16234,7 @@
     "level": 223,
     "eloRanked": 1241,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1160
@@ -16244,7 +16248,7 @@
     "level": 91,
     "eloRanked": 1241,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1161
@@ -16258,7 +16262,7 @@
     "level": 113,
     "eloRanked": 1240,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1162
@@ -16272,7 +16276,7 @@
     "level": 15,
     "eloRanked": 1240,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1163
@@ -16286,7 +16290,7 @@
     "level": 29,
     "eloRanked": 1240,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1164
@@ -16295,14 +16299,14 @@
     "id": 621923,
     "username": "Wikibell12",
     "winsRanked": 2,
-    "lossesRanked": 4,
+    "lossesRanked": 5,
     "division": "COPPER_III",
     "level": 23,
     "eloRanked": 1240,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "rank": 1165
   },
   {
@@ -16314,7 +16318,7 @@
     "level": 216,
     "eloRanked": 1240,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1166
@@ -16328,7 +16332,7 @@
     "level": 150,
     "eloRanked": 1240,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1167
@@ -16342,10 +16346,24 @@
     "level": 293,
     "eloRanked": 1239,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1168
+  },
+  {
+    "id": 618908,
+    "username": "Samdhananjaya",
+    "winsRanked": 2,
+    "lossesRanked": 1,
+    "division": "COPPER_III",
+    "level": 17,
+    "eloRanked": 1238,
+    "eloChange": 22,
+    "rankChange": 78,
+    "wins": 1,
+    "losses": 0,
+    "rank": 1169
   },
   {
     "id": 599712,
@@ -16359,7 +16377,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1169
+    "rank": 1170
   },
   {
     "id": 560528,
@@ -16373,7 +16391,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1170
+    "rank": 1171
   },
   {
     "id": 729505,
@@ -16387,7 +16405,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1171
+    "rank": 1172
   },
   {
     "id": 485426,
@@ -16401,7 +16419,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1172
+    "rank": 1173
   },
   {
     "id": 446599,
@@ -16415,7 +16433,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1173
+    "rank": 1174
   },
   {
     "id": 532011,
@@ -16429,7 +16447,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1174
+    "rank": 1175
   },
   {
     "id": 649216,
@@ -16443,7 +16461,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1175
+    "rank": 1176
   },
   {
     "id": 421041,
@@ -16457,7 +16475,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1176
+    "rank": 1177
   },
   {
     "id": 748380,
@@ -16471,7 +16489,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1177
+    "rank": 1178
   },
   {
     "id": 457056,
@@ -16485,7 +16503,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1178
+    "rank": 1179
   },
   {
     "id": 525736,
@@ -16499,7 +16517,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1179
+    "rank": 1180
   },
   {
     "id": 546282,
@@ -16513,7 +16531,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1180
+    "rank": 1181
   },
   {
     "id": 747704,
@@ -16527,7 +16545,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1181
+    "rank": 1182
   },
   {
     "id": 726636,
@@ -16541,7 +16559,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1182
+    "rank": 1183
   },
   {
     "id": 330644,
@@ -16555,7 +16573,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1183
+    "rank": 1184
   },
   {
     "id": 491875,
@@ -16569,7 +16587,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1184
+    "rank": 1185
   },
   {
     "id": 649644,
@@ -16583,7 +16601,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1185
+    "rank": 1186
   },
   {
     "id": 650495,
@@ -16597,7 +16615,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1186
+    "rank": 1187
   },
   {
     "id": 743179,
@@ -16611,7 +16629,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1187
+    "rank": 1188
   },
   {
     "id": 589963,
@@ -16625,7 +16643,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1188
+    "rank": 1189
   },
   {
     "id": 651981,
@@ -16639,7 +16657,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1189
+    "rank": 1190
   },
   {
     "id": 572401,
@@ -16653,7 +16671,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1190
+    "rank": 1191
   },
   {
     "id": 188326,
@@ -16667,7 +16685,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1191
+    "rank": 1192
   },
   {
     "id": 747284,
@@ -16681,7 +16699,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1192
+    "rank": 1193
   },
   {
     "id": 534331,
@@ -16695,7 +16713,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1193
+    "rank": 1194
   },
   {
     "id": 506631,
@@ -16709,7 +16727,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1194
+    "rank": 1195
   },
   {
     "id": 669353,
@@ -16723,7 +16741,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1195
+    "rank": 1196
   },
   {
     "id": 613754,
@@ -16737,7 +16755,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1196
+    "rank": 1197
   },
   {
     "id": 739115,
@@ -16751,7 +16769,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1197
+    "rank": 1198
   },
   {
     "id": 721814,
@@ -16765,7 +16783,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1198
+    "rank": 1199
   },
   {
     "id": 748068,
@@ -16779,7 +16797,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1199
+    "rank": 1200
   },
   {
     "id": 456009,
@@ -16793,7 +16811,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1200
+    "rank": 1201
   },
   {
     "id": 721290,
@@ -16807,7 +16825,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1201
+    "rank": 1202
   },
   {
     "id": 725809,
@@ -16821,7 +16839,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1202
+    "rank": 1203
   },
   {
     "id": 456516,
@@ -16835,7 +16853,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1203
+    "rank": 1204
   },
   {
     "id": 454147,
@@ -16849,7 +16867,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1204
+    "rank": 1205
   },
   {
     "id": 436420,
@@ -16863,7 +16881,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1205
+    "rank": 1206
   },
   {
     "id": 729370,
@@ -16877,7 +16895,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1206
+    "rank": 1207
   },
   {
     "id": 631943,
@@ -16891,7 +16909,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1207
+    "rank": 1208
   },
   {
     "id": 639228,
@@ -16905,7 +16923,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1208
+    "rank": 1209
   },
   {
     "id": 196418,
@@ -16919,7 +16937,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1209
+    "rank": 1210
   },
   {
     "id": 727534,
@@ -16933,7 +16951,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1210
+    "rank": 1211
   },
   {
     "id": 379081,
@@ -16947,7 +16965,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1211
+    "rank": 1212
   },
   {
     "id": 140337,
@@ -16961,7 +16979,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1212
+    "rank": 1213
   },
   {
     "id": 748439,
@@ -16975,7 +16993,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1213
+    "rank": 1214
   },
   {
     "id": 465698,
@@ -16989,7 +17007,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1214
+    "rank": 1215
   },
   {
     "id": 742353,
@@ -17003,7 +17021,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1215
+    "rank": 1216
   },
   {
     "id": 680195,
@@ -17017,7 +17035,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1216
+    "rank": 1217
   },
   {
     "id": 748167,
@@ -17031,7 +17049,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1217
+    "rank": 1218
   },
   {
     "id": 306573,
@@ -17045,7 +17063,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1218
+    "rank": 1219
   },
   {
     "id": 332914,
@@ -17059,7 +17077,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1219
+    "rank": 1220
   },
   {
     "id": 746036,
@@ -17073,7 +17091,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1220
+    "rank": 1221
   },
   {
     "id": 722148,
@@ -17087,7 +17105,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1221
+    "rank": 1222
   },
   {
     "id": 433350,
@@ -17101,7 +17119,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1222
+    "rank": 1223
   },
   {
     "id": 451315,
@@ -17115,7 +17133,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1223
+    "rank": 1224
   },
   {
     "id": 195534,
@@ -17129,7 +17147,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1224
+    "rank": 1225
   },
   {
     "id": 748154,
@@ -17143,7 +17161,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1225
+    "rank": 1226
   },
   {
     "id": 612633,
@@ -17157,7 +17175,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1226
+    "rank": 1227
   },
   {
     "id": 379500,
@@ -17171,7 +17189,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1227
+    "rank": 1228
   },
   {
     "id": 189739,
@@ -17185,7 +17203,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1228
+    "rank": 1229
   },
   {
     "id": 746603,
@@ -17199,7 +17217,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1229
+    "rank": 1230
   },
   {
     "id": 747386,
@@ -17213,7 +17231,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1230
+    "rank": 1231
   },
   {
     "id": 134811,
@@ -17227,7 +17245,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1231
+    "rank": 1232
   },
   {
     "id": 725282,
@@ -17241,7 +17259,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1232
+    "rank": 1233
   },
   {
     "id": 59750,
@@ -17255,7 +17273,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1233
+    "rank": 1234
   },
   {
     "id": 597028,
@@ -17269,7 +17287,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1234
+    "rank": 1235
   },
   {
     "id": 700952,
@@ -17283,21 +17301,21 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1235
+    "rank": 1236
   },
   {
     "id": 747648,
     "username": "280337591476598",
     "winsRanked": 1,
-    "lossesRanked": 8,
+    "lossesRanked": 9,
     "division": "COPPER_IV",
     "level": 13,
     "eloRanked": 1218,
     "eloChange": 0,
     "rankChange": -1,
     "wins": 0,
-    "losses": 0,
-    "rank": 1236
+    "losses": 1,
+    "rank": 1237
   },
   {
     "id": 135581,
@@ -17311,7 +17329,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1237
+    "rank": 1238
   },
   {
     "id": 671646,
@@ -17325,7 +17343,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1238
+    "rank": 1239
   },
   {
     "id": 747970,
@@ -17339,7 +17357,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1239
+    "rank": 1240
   },
   {
     "id": 524788,
@@ -17353,7 +17371,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1240
+    "rank": 1241
   },
   {
     "id": 748213,
@@ -17367,7 +17385,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1241
+    "rank": 1242
   },
   {
     "id": 660703,
@@ -17381,7 +17399,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1242
+    "rank": 1243
   },
   {
     "id": 748236,
@@ -17395,7 +17413,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1243
+    "rank": 1244
   },
   {
     "id": 743820,
@@ -17409,7 +17427,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1244
+    "rank": 1245
   },
   {
     "id": 510517,
@@ -17423,7 +17441,7 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1245
+    "rank": 1246
   },
   {
     "id": 724359,
@@ -17437,16 +17455,6 @@
     "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1246
-  },
-  {
-    "id": 618908,
-    "username": "Samdhananjaya",
-    "winsRanked": 1,
-    "lossesRanked": 1,
-    "division": "COPPER_IV",
-    "level": 17,
-    "eloRanked": 1216,
     "rank": 1247
   },
   {
@@ -17458,7 +17466,7 @@
     "level": 26,
     "eloRanked": 1216,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1248
@@ -17472,7 +17480,7 @@
     "level": 117,
     "eloRanked": 1215,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1249
@@ -17486,7 +17494,7 @@
     "level": 82,
     "eloRanked": 1215,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1250
@@ -17500,7 +17508,7 @@
     "level": 11,
     "eloRanked": 1215,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1251
@@ -17514,7 +17522,7 @@
     "level": 10,
     "eloRanked": 1215,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1252
@@ -17528,7 +17536,7 @@
     "level": 22,
     "eloRanked": 1215,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1253
@@ -17542,7 +17550,7 @@
     "level": 97,
     "eloRanked": 1215,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1254
@@ -17556,7 +17564,7 @@
     "level": 73,
     "eloRanked": 1215,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1255
@@ -17570,7 +17578,7 @@
     "level": 22,
     "eloRanked": 1215,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1256
@@ -17584,7 +17592,7 @@
     "level": 10,
     "eloRanked": 1215,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1257
@@ -17598,7 +17606,7 @@
     "level": 13,
     "eloRanked": 1215,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1258
@@ -17612,7 +17620,7 @@
     "level": 38,
     "eloRanked": 1215,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1259
@@ -17626,7 +17634,7 @@
     "level": 95,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1260
@@ -17640,7 +17648,7 @@
     "level": 44,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1261
@@ -17654,7 +17662,7 @@
     "level": 13,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1262
@@ -17668,7 +17676,7 @@
     "level": 12,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1263
@@ -17682,7 +17690,7 @@
     "level": 10,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1264
@@ -17696,7 +17704,7 @@
     "level": 55,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1265
@@ -17710,7 +17718,7 @@
     "level": 49,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1266
@@ -17724,7 +17732,7 @@
     "level": 32,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1267
@@ -17738,7 +17746,7 @@
     "level": 60,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1268
@@ -17752,7 +17760,7 @@
     "level": 22,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1269
@@ -17766,7 +17774,7 @@
     "level": 11,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1270
@@ -17780,7 +17788,7 @@
     "level": 19,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1271
@@ -17794,7 +17802,7 @@
     "level": 13,
     "eloRanked": 1214,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1272
@@ -17808,7 +17816,7 @@
     "level": 119,
     "eloRanked": 1213,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1273
@@ -17822,7 +17830,7 @@
     "level": 83,
     "eloRanked": 1213,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1274
@@ -17836,7 +17844,7 @@
     "level": 34,
     "eloRanked": 1213,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1275
@@ -17850,7 +17858,7 @@
     "level": 56,
     "eloRanked": 1212,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1276
@@ -17864,7 +17872,7 @@
     "level": 13,
     "eloRanked": 1212,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1277
@@ -17878,7 +17886,7 @@
     "level": 24,
     "eloRanked": 1212,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1278
@@ -17892,7 +17900,7 @@
     "level": 36,
     "eloRanked": 1212,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1279
@@ -17906,7 +17914,7 @@
     "level": 22,
     "eloRanked": 1210,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1280
@@ -17920,7 +17928,7 @@
     "level": 21,
     "eloRanked": 1210,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1281
@@ -17934,7 +17942,7 @@
     "level": 26,
     "eloRanked": 1210,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1282
@@ -17948,7 +17956,7 @@
     "level": 24,
     "eloRanked": 1209,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1283
@@ -17962,7 +17970,7 @@
     "level": 14,
     "eloRanked": 1209,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1284
@@ -17976,7 +17984,7 @@
     "level": 98,
     "eloRanked": 1209,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1285
@@ -17990,7 +17998,7 @@
     "level": 14,
     "eloRanked": 1207,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1286
@@ -18004,7 +18012,7 @@
     "level": 52,
     "eloRanked": 1205,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1287
@@ -18018,7 +18026,7 @@
     "level": 30,
     "eloRanked": 1205,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1288
@@ -18032,7 +18040,7 @@
     "level": 83,
     "eloRanked": 1204,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1289
@@ -18046,7 +18054,7 @@
     "level": 56,
     "eloRanked": 1202,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1290
@@ -18060,7 +18068,7 @@
     "level": 33,
     "eloRanked": 1202,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1291
@@ -18074,7 +18082,7 @@
     "level": 47,
     "eloRanked": 1202,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1292
@@ -18088,7 +18096,7 @@
     "level": 108,
     "eloRanked": 1201,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1293
@@ -18102,7 +18110,7 @@
     "level": 32,
     "eloRanked": 1201,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1294
@@ -18116,7 +18124,7 @@
     "level": 15,
     "eloRanked": 1201,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1295
@@ -18130,7 +18138,7 @@
     "level": 235,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1296
@@ -18144,7 +18152,7 @@
     "level": 207,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1297
@@ -18158,7 +18166,7 @@
     "level": 112,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1298
@@ -18172,7 +18180,7 @@
     "level": 89,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1299
@@ -18186,7 +18194,7 @@
     "level": 83,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1300
@@ -18200,7 +18208,7 @@
     "level": 57,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1301
@@ -18214,7 +18222,7 @@
     "level": 54,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1302
@@ -18228,7 +18236,7 @@
     "level": 43,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1303
@@ -18242,7 +18250,7 @@
     "level": 39,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1304
@@ -18256,7 +18264,7 @@
     "level": 37,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1305
@@ -18270,7 +18278,7 @@
     "level": 33,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1306
@@ -18284,7 +18292,7 @@
     "level": 29,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1307
@@ -18298,7 +18306,7 @@
     "level": 28,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1308
@@ -18312,7 +18320,7 @@
     "level": 28,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1309
@@ -18326,7 +18334,7 @@
     "level": 27,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1310
@@ -18340,7 +18348,7 @@
     "level": 25,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1311
@@ -18354,7 +18362,7 @@
     "level": 21,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1312
@@ -18368,7 +18376,7 @@
     "level": 21,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1313
@@ -18382,7 +18390,7 @@
     "level": 18,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1314
@@ -18396,7 +18404,7 @@
     "level": 17,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1315
@@ -18410,7 +18418,7 @@
     "level": 16,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1316
@@ -18424,7 +18432,7 @@
     "level": 15,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1317
@@ -18438,7 +18446,7 @@
     "level": 15,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1318
@@ -18452,7 +18460,7 @@
     "level": 15,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1319
@@ -18466,7 +18474,7 @@
     "level": 15,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1320
@@ -18480,7 +18488,7 @@
     "level": 14,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1321
@@ -18494,7 +18502,7 @@
     "level": 12,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1322
@@ -18508,7 +18516,7 @@
     "level": 11,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1323
@@ -18522,7 +18530,7 @@
     "level": 11,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1324
@@ -18536,7 +18544,7 @@
     "level": 11,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1325
@@ -18550,7 +18558,7 @@
     "level": 11,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1326
@@ -18564,7 +18572,7 @@
     "level": 11,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1327
@@ -18578,7 +18586,7 @@
     "level": 10,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1328
@@ -18592,7 +18600,7 @@
     "level": 10,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1329
@@ -18606,7 +18614,7 @@
     "level": 10,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1330
@@ -18620,7 +18628,7 @@
     "level": 10,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1331
@@ -18634,7 +18642,7 @@
     "level": 10,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1332
@@ -18648,7 +18656,7 @@
     "level": 155,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1333
@@ -18662,7 +18670,7 @@
     "level": 34,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1334
@@ -18676,7 +18684,7 @@
     "level": 21,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1335
@@ -18690,10 +18698,20 @@
     "level": 12,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": 0,
     "wins": 0,
     "losses": 0,
     "rank": 1336
+  },
+  {
+    "id": 748540,
+    "username": "Hant147",
+    "winsRanked": 0,
+    "lossesRanked": 2,
+    "division": "COPPER_IV",
+    "level": 10,
+    "eloRanked": 1200,
+    "rank": 1337
   },
   {
     "id": 396161,
@@ -18704,10 +18722,10 @@
     "level": 57,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1337
+    "rank": 1338
   },
   {
     "id": 208575,
@@ -18718,10 +18736,10 @@
     "level": 22,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1338
+    "rank": 1339
   },
   {
     "id": 747732,
@@ -18732,10 +18750,10 @@
     "level": 13,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1339
+    "rank": 1340
   },
   {
     "id": 712470,
@@ -18746,10 +18764,10 @@
     "level": 11,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1340
+    "rank": 1341
   },
   {
     "id": 425348,
@@ -18760,10 +18778,10 @@
     "level": 74,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1341
+    "rank": 1342
   },
   {
     "id": 694431,
@@ -18774,10 +18792,10 @@
     "level": 28,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1342
+    "rank": 1343
   },
   {
     "id": 746657,
@@ -18788,10 +18806,10 @@
     "level": 19,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1343
+    "rank": 1344
   },
   {
     "id": 743826,
@@ -18802,10 +18820,10 @@
     "level": 17,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1344
+    "rank": 1345
   },
   {
     "id": 521425,
@@ -18816,10 +18834,10 @@
     "level": 13,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1345
+    "rank": 1346
   },
   {
     "id": 326390,
@@ -18830,10 +18848,10 @@
     "level": 22,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1346
+    "rank": 1347
   },
   {
     "id": 25367,
@@ -18844,10 +18862,10 @@
     "level": 16,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1347
+    "rank": 1348
   },
   {
     "id": 305466,
@@ -18858,10 +18876,10 @@
     "level": 29,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1348
+    "rank": 1349
   },
   {
     "id": 748237,
@@ -18872,9 +18890,9 @@
     "level": 15,
     "eloRanked": 1200,
     "eloChange": 0,
-    "rankChange": -2,
+    "rankChange": -1,
     "wins": 0,
     "losses": 0,
-    "rank": 1349
+    "rank": 1350
   }
 ]
