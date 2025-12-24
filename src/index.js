@@ -1,5 +1,5 @@
 const fs = require('fs');
-const needle = require('needle');
+const login = require('./login.js');
 
 const {
   access,
@@ -14,7 +14,7 @@ const safeReadData = ['id', 'username', 'winsRanked', 'lossesRanked', 'division'
 
 function loadChanges(type = 'daily', skipCommit = '') {
   const rankingsPath = `./data/rankings-${type}.json`;
-  return needle(from)
+  return login(from)
     // Parse the leaderboard
     .then((res) => JSON.parse(res.body.leaderboard))
     // Trim excess data
@@ -88,7 +88,7 @@ function loadChanges(type = 'daily', skipCommit = '') {
           '{: .leaderboard}',
           `| ${columns.map(({ name = '', key = '' }) => name || capitalize(key)).join(' | ')} |`,
           `| ${columns.map(() => '---').join(' | ')} |`,
-          `${rankings.slice(0, 5).map((entry) => `| ${columns.map(({ 
+          `${rankings.slice(0, 5).map((entry) => `| ${columns.map(({
             key = '',
             format = (text, entry) => text,
           }) => format(entry[key], entry)).join(' | ')} |`).join('\n')}`,
