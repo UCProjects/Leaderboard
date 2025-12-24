@@ -17,11 +17,11 @@ jobs:
         run: npm install --production
       - name: Update
         run: npm start daily
+        env:
+          UC_LOGIN: ${{ secrets.UC_LOGIN }}
       - name: Commit
         uses: EndBug/add-and-commit@v5
         with:
           message: "chore: Daily Update"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          UC_LOGIN:  ${{ secrets.UC_LOGIN }}
-
