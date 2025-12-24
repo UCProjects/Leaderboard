@@ -4,7 +4,7 @@ const needle = require('needle');
 const body = process.env.UC_LOGIN;
 
 async function login(url) {
-  if (!body?.split('&').length) throw new Error('Missing login');
+  if (!body || !body.split('&').length) throw new Error('Missing login');
   const hostname = 'undercards.net';
   const options = {
     hostname: hostname,
