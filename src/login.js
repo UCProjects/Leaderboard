@@ -25,7 +25,7 @@ async function login(url) {
   };
   return new Promise((resolve, reject) => {
     const req = https.request(options, res => {
-      if (res.statusCode !== 302 && res.statusCode !== 200) {
+      if (res.statusCode !== 200) {
         reject(res);
       } else resolve(res)
     });
