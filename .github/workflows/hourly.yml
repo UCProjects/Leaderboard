@@ -24,4 +24,5 @@ jobs:
           message: "chore: Hourly Update"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          UC_LOGIN:  ${{ secrets.UC_LOGIN }}
 
