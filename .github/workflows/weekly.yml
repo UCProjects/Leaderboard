@@ -25,3 +25,5 @@ jobs:
           message: "chore: Weekly Update"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: rm -rf "$GITHUB_WORKSPACE" && mkdir -p "$GITHUB_WORKSPACE"
+        if: ${{ always() }}
