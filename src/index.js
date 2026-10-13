@@ -15,7 +15,7 @@ const from = 'https://undercards.net/Leaderboard?action=ranked';
 const retentionDays = {
   hourly: 7,
   daily: 365,
-  weekly: 365,
+  weekly: 0,
 };
 
 const safeReadData = ['id', 'username', 'winsRanked', 'lossesRanked', 'division', 'level', 'eloRanked'];
