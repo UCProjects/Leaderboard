@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "scripts": {
     "start": "node src/index.js",
-    "host": "bundle exec jekyll serve",
-    "build": "bundle install && bundle exec jekyll build"
+    "host": "bundle exec jekyll serve --source docs --destination _site --incremental",
+    "build": "bundle install && bundle exec jekyll build --source docs --destination _site"
   },
   "engines": {
     "node": "^24"
