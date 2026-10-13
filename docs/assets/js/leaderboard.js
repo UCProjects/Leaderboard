@@ -1,9 +1,19 @@
 import columns, { extra } from './formatter.js';
+import { addHeaders, extendTable } from './table.js';
 
 // TODO: convert to elements
 async function load(url) {
   // TODO: load partial entries over time
+  const table = document.querySelector('.leaderboard');
   const res = await fetch(url);
+  if (res.status === 404) {
+    const note = document.createElement('p');
+    note.className = 'data-unavailable';
+    note.textContent = 'The full ranking for this update is no longer available.';
+    table.after(note);
+    extendTable(table);
+    return;
+  }
   if (!res.ok) throw new Error(`Request failed: ${res.status}`);
   const data = await res.json();
   const entries = data.map((entry) => columns.map(({
@@ -11,15 +21,10 @@ async function load(url) {
     format = (text, entry) => text,
   }) => `<td>${format(entry[key], entry)}</td>`).join('') + extra.map(({ format }) => `<td>${format(entry)}</td>`).join(''));
 
-  const header = document.querySelector('.leaderboard thead tr');
-  extra.forEach(({ name }) => {
-    const el = document.createElement('th');
-    el.innerText = name;
-    header.append(el);
-  });
+  addHeaders(table);
 
   const safe = window.getComputedStyle(document.querySelector('.mobile-warning')).display === 'none';
-  const body = document.querySelector('.leaderboard tbody');
+  const body = table.querySelector('tbody');
 
   body.innerHTML = '';
   addEntries(entries, safe ? 500 : 100, safe ? 100 : 1000, safe, body);
