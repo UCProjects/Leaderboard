@@ -1,5 +1,6 @@
 const fs = require('fs');
 const login = require('./login.js');
+const { updatePlayers } = require('./players.js');
 
 const {
   access,
@@ -122,7 +123,10 @@ async function loadChanges(type = 'daily', skipCommit = '') {
     writeFile(`${postPath}/${slug}.md`, top5),
   ]);
 
-  if (!skipCommit) await prune(type);
+  if (!skipCommit) {
+    await updatePlayers(rankings, slug);
+    await prune(type);
+  }
 }
 
 function capitalize(text = '') {
