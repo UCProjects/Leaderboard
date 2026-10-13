@@ -1,42 +1,53 @@
-const https = require('https');
-const needle = require('needle');
+const nodeFetch = require('node-fetch');
 
-const body = process.env.UC_LOGIN;
+const origin = 'https://undercards.net';
+const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36';
 
-async function login(url) {
-  if (!body || !body.split('&').length) throw new Error('Missing login');
-  const hostname = 'undercards.net';
-  const options = {
-    hostname: hostname,
-    port: 443,
-    path: encodeURI('/SignIn'),
-    method: 'POST',
-    headers: {
-      Accept: '*/*',
-      'Accept-Encoding': 'gzip, deflate, br',
-      'Accept-Language': 'en-US,en;q=0.9,es;q=0.8',
-      Connection: 'keep-alive',
-      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-      'Content-Length': body ? body.length : 0,
-      Host: hostname,
-      Origin: `https://${hostname}`,
-      Referer: `https://${hostname}`,
-      'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-    },
-  };
-  return new Promise((resolve, reject) => {
-    const req = https.request(options, res => {
-      if (res.statusCode !== 302 && res.statusCode !== 200) {
-        reject(res);
-      } else resolve(res)
-    });
-    //req.on("error", console.error.bind(console));
-    if (body) req.write(body);
-    req.end();
-  }).then(({ headers }) => `${headers['set-cookie'].map(cookie => cookie.split(';')[0]).join('; ')};`)
-  .then((cookie) => needle('get', url, {
-    headers: { cookie },
-  }));
+function createAgent() {
+  const proxy = process.env.ALL_PROXY;
+  if (!proxy) return undefined;
+  const { SocksProxyAgent } = require('socks-proxy-agent');
+  return new SocksProxyAgent(proxy, { keepAlive: true });
 }
 
-module.exports = login;
+const agent = createAgent();
+
+function fetch(url, options = {}) {
+  return nodeFetch(url, {
+    agent,
+    ...options,
+    headers: {
+      'User-Agent': userAgent,
+      ...options.headers,
+    },
+  });
+}
+
+async function login() {
+  const body = process.env.UC_LOGIN;
+  if (!body) throw new Error('Missing login');
+  const res = await fetch(`${origin}/SignIn`, {
+    method: 'POST',
+    redirect: 'manual',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+      Origin: origin,
+      Referer: origin,
+    },
+    body,
+  });
+  if (res.status !== 302 && res.status !== 200) throw new Error(`Login failed: ${res.status}`);
+  const cookies = res.headers.raw()['set-cookie'];
+  if (!cookies || !cookies.length) throw new Error('Login failed: no session cookie');
+  return cookies.map((cookie) => cookie.split(';')[0]).join('; ');
+}
+
+async function loadJson(url) {
+  const cookie = await login();
+  const res = await fetch(url, { headers: { cookie } });
+  console.log(res.status);
+  if (!res.ok) throw new Error(`Request failed: ${res.status}`);
+  return res.json();
+}
+
+module.exports = loadJson;

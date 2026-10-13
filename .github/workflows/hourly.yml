@@ -2,27 +2,13 @@ name: Hourly Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30/60 * * * *" # Every hour
+    - cron: "30 * * * *" # Every hour
 jobs:
-  run:
-    runs-on: self-hosted
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Node setup
-        uses: actions/setup-node@v2-beta
-        with:
-          node-version: '12'
-      - name: Install
-        run: npm install --production
-      - name: Update
-        run: npm start hourly
-        env:
-          UC_LOGIN: ${{ secrets.UC_LOGIN }}
-      - name: Commit
-        uses: EndBug/add-and-commit@v5
-        with:
-          author_name: Trackbot
-          message: "chore: Hourly Update"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  update:
+    permissions:
+      id-token: write
+      contents: write
+    uses: ./.github/workflows/update.yml
+    with:
+      type: hourly
+    secrets: inherit

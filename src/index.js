@@ -15,12 +15,8 @@ const safeReadData = ['id', 'username', 'winsRanked', 'lossesRanked', 'division'
 function loadChanges(type = 'daily', skipCommit = '') {
   const rankingsPath = `./data/rankings-${type}.json`;
   return login(from)
-    .then((res) => {
-      console.log(res.statusCode);
-      return res;
-    })
     // Parse the leaderboard
-    .then((res) => JSON.parse(res.body.leaderboard))
+    .then(({ leaderboard }) => JSON.parse(leaderboard))
     // Trim excess data
     .then((rankings = []) => rankings.map((data) => safeReadData.reduce((ret, key) => (ret[key] = data[key], ret), {})))
     // Load old rankings

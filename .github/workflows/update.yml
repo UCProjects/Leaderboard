@@ -1,0 +1,49 @@
+name: Update
+on:
+  workflow_call:
+    inputs:
+      type:
+        required: true
+        type: string
+concurrency:
+  group: leaderboard-update
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - run: npm clean-install --omit=dev
+      - uses: tailscale/github-action@v4
+        with:
+          oauth-client-id: ${{ vars.TS_OAUTH_CLIENT_ID }}
+          audience: ${{ vars.TS_AUDIENCE }}
+          tags: tag:ci-proxy
+      - name: Update
+        run: npm start -- "$TYPE"
+        env:
+          TYPE: ${{ inputs.type }}
+          UC_LOGIN: ${{ secrets.UC_LOGIN }}
+          ALL_PROXY: socks5h://100.115.6.118:1080
+      - name: Commit and push
+        env:
+          TYPE: ${{ inputs.type }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'Nothing to commit'
+            exit 0
+          fi
+          git commit -m "chore: ${TYPE^} Update"
+          git pull --rebase
+          git push

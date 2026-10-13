@@ -4,26 +4,11 @@ on:
   schedule:
     - cron: "25 8 */7 * *" # 25 minutes after reset
 jobs:
-  run:
-    runs-on: self-hosted
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Node setup
-        uses: actions/setup-node@v2-beta
-        with:
-          node-version: '12'
-      - name: Install
-        run: npm install --production
-      - name: Update
-        run: npm start weekly
-        env:
-          UC_LOGIN: ${{ secrets.UC_LOGIN }}
-      - name: Commit
-        uses: EndBug/add-and-commit@v5
-        with:
-          message: "chore: Weekly Update"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: rm -rf "$GITHUB_WORKSPACE" && mkdir -p "$GITHUB_WORKSPACE"
-        if: ${{ always() }}
+  update:
+    permissions:
+      id-token: write
+      contents: write
+    uses: ./.github/workflows/update.yml
+    with:
+      type: weekly
+    secrets: inherit
