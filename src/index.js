@@ -6,9 +6,17 @@ const {
   readFile,
   writeFile,
   mkdir,
+  readdir,
+  rm,
 } = fs.promises;
 
 const from = 'https://undercards.net/Leaderboard?action=ranked';
+
+const retentionDays = {
+  hourly: 7,
+  daily: 365,
+  weekly: 365,
+};
 
 const safeReadData = ['id', 'username', 'winsRanked', 'lossesRanked', 'division', 'level', 'eloRanked'];
 
@@ -22,6 +30,20 @@ async function loadPrevious(rankingsPath) {
     }
     return [];
   }
+}
+
+async function prune(type) {
+  const days = retentionDays[type];
+  if (!days) return;
+  const dir = `./docs/assets/data/${type}`;
+  const cutoff = Math.floor(Date.now() / 1000) - days * 24 * 60 * 60;
+  const names = await readdir(dir).catch((e) => {
+    if (e.code !== 'ENOENT') throw e;
+    return [];
+  });
+  await Promise.all(names
+    .filter((name) => parseInt(name, 10) < cutoff)
+    .map((name) => rm(`${dir}/${name}`)));
 }
 
 async function loadChanges(type = 'daily', skipCommit = '') {
@@ -99,6 +121,8 @@ async function loadChanges(type = 'daily', skipCommit = '') {
     writeFile(`${postData}/${slug}.json`, JSON.stringify(rankings)),
     writeFile(`${postPath}/${slug}.md`, top5),
   ]);
+
+  if (!skipCommit) await prune(type);
 }
 
 function capitalize(text = '') {
