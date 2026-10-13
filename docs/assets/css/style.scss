@@ -164,7 +164,8 @@ main {
   }
 }
 
-.leaderboard {
+.leaderboard,
+.player-history {
   width: 800px;
   border-spacing: 0;
   text-align: left;
@@ -188,6 +189,25 @@ main {
     padding: 8px;
     line-height: 1.42857143;
     border-bottom: 1px solid #ddd;
+  }
+}
+
+details[open] {
+  padding-bottom: 10px;
+}
+
+.leaderboard a {
+  color: #0645ad;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+
+  &:visited {
+    color: #0645ad;
+  }
+
+  &:hover,
+  &:focus-visible {
+    text-decoration: underline solid;
   }
 }
 

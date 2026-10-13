@@ -1,0 +1,15 @@
+---
+title: Player
+layout: default
+---
+<article>
+  <h1 class="page-title" id="player-name">Player</h1>
+  <p id="player-summary"></p>
+  <table class="player-history" hidden>
+    <thead><tr></tr></thead>
+    <tbody></tbody>
+  </table>
+  <p id="player-message"></p>
+</article>
+<script>const playersURL = "{{ '/assets/data/players' | relative_url }}";</script>
+<script type="module" src="{{ 'assets/js/player.js' | relative_url }}"></script>

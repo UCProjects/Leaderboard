@@ -5,7 +5,7 @@ const columns = [{
   key: 'level',
 }, {
   key: 'username',
-  format: (text = '', { id }) => `<span title="ID: ${id}">${text}</span>`,
+  format: (text = '', { id }) => `<a href="${playerURL}?id=${id}" title="ID: ${id}">${text}</a>`,
 }, {
   key: 'division',
   format: (text = '') => text.replace('_', ' '),

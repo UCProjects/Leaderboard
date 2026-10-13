@@ -20,6 +20,13 @@ export function extendTable(table) {
   const keys = [...table.querySelectorAll('thead th')]
     .map((el) => headerKeys[el.textContent.trim()]);
   addHeaders(table);
+  table.querySelectorAll('tbody span[title^="ID: "]').forEach((span) => {
+    const link = document.createElement('a');
+    link.href = `${playerURL}?id=${span.title.slice(4)}`;
+    link.title = span.title;
+    link.textContent = span.textContent;
+    span.replaceWith(link);
+  });
   table.querySelectorAll('tbody tr').forEach((row) => {
     const entry = {};
     [...row.children].forEach((cell, i) => {
