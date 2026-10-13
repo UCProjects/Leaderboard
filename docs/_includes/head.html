@@ -14,7 +14,6 @@
   </title>
   {% if page.layout == "leaderboard"%}{% capture dataURL %}/assets/data/{{ page.category }}/{{ page.slug }}.json{% endcapture %}
   <script>const dataURL = "{{ dataURL | relative_url }}";</script>
-  <script defer src="https://unpkg.com/axios@^0.18/dist/axios.min.js"></script>
   <script type="module" src="{{ 'assets/js/leaderboard.js' | relative_url }}"></script>
   {% endif %}
   <script type="module">

@@ -1,27 +1,28 @@
 import columns, { extra } from './formatter.js';
 
 // TODO: convert to elements
-function load(url) {
+async function load(url) {
   // TODO: load partial entries over time
-  return window.axios.get(url).then(ret => {
-    const entries = ret.data.map((entry) => columns.map(({
-      key = '',
-      format = (text, entry) => text,
-    }) => `<td>${format(entry[key], entry)}</td>`).join('') + extra.map(({ format }) => `<td>${format(entry)}</td>`).join(''));
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Request failed: ${res.status}`);
+  const data = await res.json();
+  const entries = data.map((entry) => columns.map(({
+    key = '',
+    format = (text, entry) => text,
+  }) => `<td>${format(entry[key], entry)}</td>`).join('') + extra.map(({ format }) => `<td>${format(entry)}</td>`).join(''));
 
-    const header = document.querySelector('.leaderboard thead tr');
-    extra.forEach(({ name }) => {
-      const el = document.createElement('th');
-      el.innerText = name;
-      header.append(el);
-    });
-
-    const safe = window.getComputedStyle(document.querySelector('.mobile-warning')).display === 'none';
-    const body = document.querySelector('.leaderboard tbody');
-    
-    body.innerHTML = '';
-    addEntries(entries, safe ? 500 : 100, safe ? 100 : 1000, safe, body);
+  const header = document.querySelector('.leaderboard thead tr');
+  extra.forEach(({ name }) => {
+    const el = document.createElement('th');
+    el.innerText = name;
+    header.append(el);
   });
+
+  const safe = window.getComputedStyle(document.querySelector('.mobile-warning')).display === 'none';
+  const body = document.querySelector('.leaderboard tbody');
+
+  body.innerHTML = '';
+  addEntries(entries, safe ? 500 : 100, safe ? 100 : 1000, safe, body);
 }
 
 // TODO: make a loader that detects when near the end of the list, and expand it
