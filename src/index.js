@@ -94,10 +94,11 @@ async function loadChanges(type = 'daily', skipCommit = '') {
   const slug = Math.floor(Date.now() / 1000);
   const postData = `./docs/assets/data/${type}`;
   const postPath = `./docs/_${type}`;
-  await mkdir(postData, { recursive: true });
-  await writeFile(`${postData}/${slug}.json`, JSON.stringify(rankings));
-  await mkdir(postPath, { recursive: true });
-  await writeFile(`${postPath}/${slug}.md`, top5);
+  await Promise.all([mkdir(postData, { recursive: true }), mkdir(postPath, { recursive: true })]);
+  await Promise.all([
+    writeFile(`${postData}/${slug}.json`, JSON.stringify(rankings)),
+    writeFile(`${postPath}/${slug}.md`, top5),
+  ]);
 }
 
 function capitalize(text = '') {
