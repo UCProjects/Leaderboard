@@ -9,8 +9,39 @@ async function fetchJson(url) {
   return res.json();
 }
 
-function divisionName(text = '') {
+const letterMetals = {
+  Z: 'COPPER',
+  H: 'IRON',
+  G: 'GOLD',
+  F: 'EMERALD',
+  E: 'DIAMOND',
+};
+
+const letterTiers = {
+  D: 'MASTER',
+  C: 'HIGH_MASTER',
+  B: 'HIGH_MASTER',
+  A: 'ULTIMATE_MASTER',
+  S: 'ULTIMATE_MASTER',
+  T: 'LEGEND',
+};
+
+const subRanks = ['III', 'II', 'I'];
+
+function titleCase(text) {
   return text.replace('_', ' ');
+}
+
+function divisionCell(label = '') {
+  if (!label) return { text: '' };
+  const letter = label[0];
+  const isLetterGrade = label.length <= 3 && label === letter.repeat(label.length) && (letterMetals[letter] || letterTiers[letter]);
+  if (!isLetterGrade) return { text: titleCase(label) };
+  if (letterMetals[letter]) {
+    return { text: `${letterMetals[letter]} ${subRanks[label.length - 1]}`, title: label };
+  }
+  const tier = label === 'BBB' ? 'ULTIMATE_MASTER' : letterTiers[letter];
+  return { text: titleCase(tier), title: label };
 }
 
 function toRows(history = {}, current = { players: {} }, id) {
@@ -60,11 +91,16 @@ function render(name, rows) {
       row.losses,
       ...extra.map(({ format }) => (games ? format({ winsRanked: row.wins, lossesRanked: row.losses }) : '-')),
       row.level,
-      divisionName(row.top),
-      divisionName(row.bottom),
+      divisionCell(row.top),
+      divisionCell(row.bottom),
     ].forEach((value) => {
       const td = document.createElement('td');
-      td.textContent = value;
+      if (value !== null && typeof value === 'object') {
+        td.textContent = value.text;
+        if (value.title) td.title = value.title;
+      } else {
+        td.textContent = value;
+      }
       tr.append(td);
     });
     body.append(tr);
