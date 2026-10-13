@@ -45,5 +45,8 @@ jobs:
             exit 0
           fi
           git commit -m "chore: ${TYPE^} Update"
-          git pull --rebase
-          git push
+          for attempt in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep $((attempt * 15))
+          done
+          exit 1

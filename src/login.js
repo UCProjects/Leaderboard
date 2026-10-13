@@ -1,6 +1,10 @@
+const { setTimeout: sleep } = require('node:timers/promises');
 const nodeFetch = require('node-fetch');
 
 const origin = 'https://undercards.net';
+const attempts = 3;
+const retryDelay = 30000;
+const timeout = 150000;
 const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36';
 
 function createAgent() {
@@ -12,15 +16,26 @@ function createAgent() {
 
 const agent = createAgent();
 
-function fetch(url, options = {}) {
-  return nodeFetch(url, {
-    agent,
-    ...options,
-    headers: {
-      'User-Agent': userAgent,
-      ...options.headers,
-    },
-  });
+async function fetch(url, options = {}) {
+  for (let attempt = 1; ; attempt += 1) {
+    try {
+      const res = await nodeFetch(url, {
+        agent,
+        timeout,
+        ...options,
+        headers: {
+          'User-Agent': userAgent,
+          ...options.headers,
+        },
+      });
+      if (res.status < 500 || attempt >= attempts) return res;
+      console.error(`Attempt ${attempt} failed: ${res.status}`);
+    } catch (e) {
+      if (attempt >= attempts) throw e;
+      console.error(`Attempt ${attempt} failed: ${e.message}`);
+    }
+    await sleep(retryDelay * attempt);
+  }
 }
 
 async function login() {
