@@ -5,15 +5,11 @@ category: weekly
 ---
 
 {% assign posts = site.weekly | reverse %}
-{% for post in posts %}
-<details>
-  <summary>
-    <a href="{{ post.url | relative_url }}" data-time="{{ post.slug }}">{{ post.slug | date: "%Y-%m-%d %H:%M" }}</a>
-  </summary>
-  {{ post.excerpt }}
-  <a href="{{ post.url | relative_url }}">See more</a>
-</details>
-{% endfor %}
-{% unless posts.size > 0 %}
+{% if posts.size > 0 %}
+{% assign sample = posts | first %}
+<div id="archive" data-url="{{ sample.url | relative_url | replace: sample.slug, '__SLUG__' }}"></div>
+<script type="application/json" id="archive-data">[{% for post in posts %}{{ post.slug }}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
+<script type="module" src="{{ 'assets/js/archive.js' | relative_url }}"></script>
+{% else %}
 Nothing here currently, wait for the next update!
-{% endunless %}
+{% endif %}

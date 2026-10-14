@@ -196,6 +196,20 @@ details[open] {
   padding-bottom: 10px;
 }
 
+.archive-month > summary {
+  font-weight: bold;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.archive-list {
+  margin-left: 18px;
+}
+
+.archive-body {
+  min-height: 1em;
+}
+
 .aliases {
   position: relative;
   display: inline-block;

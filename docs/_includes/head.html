@@ -24,7 +24,7 @@
       return `0${text}`.slice(-2);
     }
     function parse(date = new Date()) {
-      return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()} ${pad(date.getHours())}:${pad(date.getMinutes())}`;
+      return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())} ${pad(date.getHours())}:${pad(date.getMinutes())}`;
     }
     document.querySelectorAll('[data-time]').forEach((el) => el.textContent = parse(new Date(el.dataset.time * 1000)));
   </script>
