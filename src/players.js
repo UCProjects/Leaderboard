@@ -121,10 +121,30 @@ async function readJson(file, fallback) {
   }
 }
 
+function uniqueNames(names, exclude) {
+  const seen = new Set([exclude]);
+  return names.filter((name) => {
+    if (!name || seen.has(name)) return false;
+    seen.add(name);
+    return true;
+  });
+}
+
+function rename(player, name) {
+  if (player.n === name) return;
+  const aliases = uniqueNames([player.n, ...(player.a || [])], name);
+  player.n = name;
+  if (aliases.length) player.a = aliases;
+  else delete player.a;
+}
+
 function foldSeason(history, current) {
-  Object.entries(current.players).forEach(([id, { n, c }]) => {
+  Object.entries(current.players).forEach(([id, { n, a, c }]) => {
     const player = history[id] || (history[id] = { n, h: [] });
+    const aliases = uniqueNames([...(a || []), player.n, ...(player.a || [])], n);
     player.n = n;
+    if (aliases.length) player.a = aliases;
+    else delete player.a;
     if (player.h.some(([season]) => season === current.season)) return;
     player.h.push(toRow(current.season, deserialize(c)));
   });
@@ -165,7 +185,7 @@ async function updatePlayers(rankings, timestamp, dir = playersDir) {
       }
       const record = deserialize(existing.c);
       updateRecord(record, entry, rank, tier, timestamp);
-      existing.n = entry.username;
+      rename(existing, entry.username);
       existing.c = serialize(record);
     });
     await writeFile(currentFile, JSON.stringify(current));

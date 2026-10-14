@@ -49,13 +49,14 @@ function createRecorder() {
         const rank = entry.rank || position + 1;
         let player = players.get(entry.id);
         if (!player) {
-          player = { name: entry.username, last: 0, seasons: new Map() };
+          player = { name: entry.username, last: 0, seasons: new Map(), names: new Map() };
           players.set(entry.id, player);
         }
         if (timestamp >= player.last) {
           player.last = timestamp;
           player.name = entry.username;
         }
+        if (entry.username) player.names.set(entry.username, timestamp);
         const tier = tiers.get(entry.division);
         const record = player.seasons.get(season);
         if (record) {
@@ -107,7 +108,13 @@ function writeShards(players, state) {
       .filter(([season]) => season !== latest)
       .sort(([a], [b]) => (a < b ? -1 : 1))
       .map(([season, record]) => toRow(season, record));
-    if (rows.length) history[shardOf(id)][id] = { n: player.name, h: rows };
+    const aliases = [...player.names]
+      .filter(([name]) => name !== player.name)
+      .sort((a, b) => b[1] - a[1])
+      .map(([name]) => name);
+    if (rows.length || aliases.length) {
+      history[shardOf(id)][id] = aliases.length ? { n: player.name, h: rows, a: aliases } : { n: player.name, h: rows };
+    }
     const record = player.seasons.get(latest);
     if (record) current[shardOf(id)].players[id] = { n: player.name, c: serialize(record) };
   });

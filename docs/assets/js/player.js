@@ -58,9 +58,40 @@ function toRows(history = {}, current = { players: {} }, id) {
   return rows.sort((a, b) => (a.season < b.season ? 1 : -1));
 }
 
-function render(name, rows) {
+function previousNames(name, now = {}, before = {}) {
+  const seen = new Set([name]);
+  return [
+    ...(now.a || []),
+    before.n,
+    ...(before.a || []),
+  ].filter((alias) => {
+    if (!alias || seen.has(alias)) return false;
+    seen.add(alias);
+    return true;
+  });
+}
+
+function renderAliases(aliases) {
+  if (!aliases.length) return;
+  const wrapper = document.getElementById('player-aliases');
+  const toggle = wrapper.querySelector('.aliases-toggle');
+  const list = wrapper.querySelector('ul');
+  aliases.forEach((alias) => {
+    const li = document.createElement('li');
+    li.textContent = alias;
+    list.append(li);
+  });
+  toggle.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', open ? 'false' : 'true');
+  });
+  wrapper.hidden = false;
+}
+
+function render(name, rows, aliases) {
   document.getElementById('player-name').textContent = name;
   document.title = `${name} · ${document.title.split(' · ').slice(1).join(' · ') || 'Leaderboard'}`;
+  renderAliases(aliases);
 
   const bestRank = rows.reduce((best, row) => (row.rank <= best.rank ? row : best));
   const peakElo = rows.reduce((best, row) => (row.elo >= best.elo ? row : best));
@@ -127,8 +158,10 @@ async function load() {
     return;
   }
 
-  const name = (current && current.players[id] ? current.players[id].n : undefined) || history[id].n;
-  render(name, rows);
+  const now = current ? current.players[id] : undefined;
+  const before = history ? history[id] : undefined;
+  const name = (now && now.n) || before.n;
+  render(name, rows, previousNames(name, now, before));
 }
 
 load();

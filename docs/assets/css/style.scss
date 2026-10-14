@@ -196,6 +196,62 @@ details[open] {
   padding-bottom: 10px;
 }
 
+.aliases {
+  position: relative;
+  display: inline-block;
+  font-size: 0.5em;
+  vertical-align: middle;
+
+  &[hidden] {
+    display: none;
+  }
+
+  .aliases-toggle {
+    background: none;
+    border: 0;
+    padding: 0 6px;
+    color: #666;
+    cursor: pointer;
+    font-size: inherit;
+  }
+
+  .aliases-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 5;
+    min-width: 220px;
+    max-width: 320px;
+    padding: 10px 14px;
+    background: #1b2838;
+    color: #c6d4df;
+    border-radius: 3px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+
+    ul {
+      margin: 8px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      padding: 3px 0;
+      color: #fff;
+      overflow-wrap: anywhere;
+    }
+  }
+
+  &:hover .aliases-list,
+  &:focus-within .aliases-list,
+  .aliases-toggle[aria-expanded="true"] + .aliases-list {
+    display: block;
+  }
+}
+
 .leaderboard a {
   color: #0645ad;
   text-decoration: underline dotted;

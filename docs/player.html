@@ -3,7 +3,16 @@ title: Player
 layout: default
 ---
 <article>
-  <h1 class="page-title" id="player-name">Player</h1>
+  <h1 class="page-title">
+    <span id="player-name">Player</span>
+    <span class="aliases" id="player-aliases" hidden>
+      <button type="button" class="aliases-toggle" aria-label="Previous names" aria-expanded="false">&#9662;</button>
+      <div class="aliases-list">
+        <strong>This user has also played as:</strong>
+        <ul></ul>
+      </div>
+    </span>
+  </h1>
   <p id="player-summary"></p>
   <table class="player-history" hidden>
     <thead><tr></tr></thead>
