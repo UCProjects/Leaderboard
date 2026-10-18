@@ -55,6 +55,8 @@ async function loadChanges(type = 'daily', skipCommit = '') {
   const old = (await loadPrevious(rankingsPath))
     .reduce((ret, val, i) => (val.position = i, ret[val.id] = val, ret), {});
 
+  if (!rankings.length) throw new Error('The leaderboard came back empty');
+
   rankings.forEach((data, position) => {
     const prev = old[data.id];
     if (prev) {
