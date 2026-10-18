@@ -1,5 +1,6 @@
 const fs = require('fs');
 const login = require('./login.js');
+const log = require('./log.js');
 const { updatePlayers } = require('./players.js');
 
 const {
@@ -49,6 +50,7 @@ async function prune(type) {
 
 async function loadChanges(type = 'daily', skipCommit = '') {
   const rankingsPath = `./data/rankings-${type}.json`;
+  log(`Updating ${type}`);
   const { leaderboard } = await login(from);
   const rankings = JSON.parse(leaderboard)
     .map((data) => safeReadData.reduce((ret, key) => (ret[key] = data[key], ret), {}));
@@ -56,6 +58,7 @@ async function loadChanges(type = 'daily', skipCommit = '') {
     .reduce((ret, val, i) => (val.position = i, ret[val.id] = val, ret), {});
 
   if (!rankings.length) throw new Error('The leaderboard came back empty');
+  log(`Ranked ${rankings.length} players`);
 
   rankings.forEach((data, position) => {
     const prev = old[data.id];
@@ -69,8 +72,10 @@ async function loadChanges(type = 'daily', skipCommit = '') {
   });
 
   if (!skipCommit) {
+    log(`Writing ${rankings.length} player files`);
     await Promise.all(rankings.map((data) => writeFile(`./data/users/${data.id}.json`, JSON.stringify(data, undefined, 2))));
     await writeFile(rankingsPath, JSON.stringify(rankings, undefined, 2));
+    log('Wrote the player files and rankings');
   }
 
   const columns = [{
@@ -125,10 +130,15 @@ async function loadChanges(type = 'daily', skipCommit = '') {
     writeFile(`${postPath}/${slug}.md`, top5),
   ]);
 
+  log('Wrote the snapshot');
+
   if (!skipCommit) {
+    log('Updating the player history');
     await updatePlayers(rankings, slug);
+    log('Pruning old snapshots');
     await prune(type);
   }
+  log('Done');
 }
 
 function capitalize(text = '') {

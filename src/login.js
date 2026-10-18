@@ -1,5 +1,6 @@
 const { setTimeout: sleep } = require('node:timers/promises');
 const nodeFetch = require('node-fetch');
+const log = require('./log.js');
 
 const origin = 'https://undercards.net';
 const attempts = 3;
@@ -29,10 +30,10 @@ async function fetch(url, options = {}) {
         },
       });
       if (res.status < 500 || attempt >= attempts) return res;
-      console.error(`Attempt ${attempt} failed: ${res.status}`);
+      console.error(`Attempt ${attempt} failed: ${res.status}, retrying in ${(retryDelay * attempt) / 1000}s`);
     } catch (e) {
       if (attempt >= attempts) throw e;
-      console.error(`Attempt ${attempt} failed: ${e.message}`);
+      console.error(`Attempt ${attempt} failed: ${e.message}, retrying in ${(retryDelay * attempt) / 1000}s`);
     }
     await sleep(retryDelay * attempt);
   }
@@ -41,6 +42,7 @@ async function fetch(url, options = {}) {
 async function login() {
   const body = process.env.UC_LOGIN;
   if (!body) throw new Error('Missing login');
+  log('Signing in');
   const res = await fetch(`${origin}/SignIn`, {
     method: 'POST',
     redirect: 'manual',
@@ -59,8 +61,9 @@ async function login() {
 
 async function loadJson(url) {
   const cookie = await login();
+  log('Signed in, requesting the leaderboard');
   const res = await fetch(url, { headers: { cookie } });
-  console.log(res.status);
+  log(`Leaderboard responded ${res.status}`);
   if (!res.ok) throw new Error(`Request failed: ${res.status}`);
   return res.json();
 }
