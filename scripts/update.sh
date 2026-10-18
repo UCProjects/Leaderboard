@@ -12,7 +12,9 @@ cd "$repo"
 git config user.name 'github-actions[bot]'
 git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-git pull --rebase
+git fetch --depth 1 origin master
+git reset --hard origin/master
+git clean -fd
 npm clean-install --omit=dev --prefer-offline --no-audit --no-fund
 node --env-file="$HOME/.config/leaderboard.env" src/index.js "$type"
 
