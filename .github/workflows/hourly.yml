@@ -1,8 +1,6 @@
 name: Hourly Update
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 * * * *" # Every hour
 jobs:
   update:
     permissions:

@@ -1,8 +1,6 @@
 name: Weekly Update
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "25 8 */7 * *" # 25 minutes after reset
 jobs:
   update:
     permissions:
