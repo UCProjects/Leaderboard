@@ -19,7 +19,7 @@ git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 step "Fetching the latest checkout"
 git rebase --abort 2>/dev/null || rm -rf .git/rebase-merge .git/rebase-apply
 git fetch --depth 1 origin master
-git reset --hard origin/master
+git checkout -q -f -B master origin/master
 git clean -fd
 step "Checking dependencies"
 lock="$(sha256sum package-lock.json | cut -d' ' -f1)"
