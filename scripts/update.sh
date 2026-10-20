@@ -17,6 +17,7 @@ git config user.name 'github-actions[bot]'
 git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
 step "Fetching the latest checkout"
+git rebase --abort 2>/dev/null || rm -rf .git/rebase-merge .git/rebase-apply
 git fetch --depth 1 origin master
 git reset --hard origin/master
 git clean -fd
@@ -42,6 +43,7 @@ git commit -q -m "chore: $label Update"
 for attempt in 1 2 3; do
   step "Pushing (attempt $attempt)"
   git pull --rebase && git push && step "Pushed" && exit 0
+  git rebase --abort 2>/dev/null || true
   sleep $((attempt * 15))
 done
 exit 1
