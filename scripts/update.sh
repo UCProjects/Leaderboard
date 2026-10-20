@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-export PATH="/opt/node-24/node/bin:$PATH"
+export PATH="/opt/node-24/bin:$PATH"
 set -euo pipefail
 
 step() {
