@@ -2,6 +2,7 @@ const fs = require('fs');
 const login = require('./login.js');
 const log = require('./log.js');
 const { updatePlayers } = require('./players.js');
+const { packHourly } = require('./pack.js');
 
 const {
   access,
@@ -14,11 +15,7 @@ const {
 
 const from = 'https://undercards.net/Leaderboard?action=ranked';
 
-const retentionDays = {
-  hourly: 7,
-  daily: 365,
-  weekly: 0,
-};
+const retentionDays = require('./retention.js');
 
 const safeReadData = ['id', 'username', 'winsRanked', 'lossesRanked', 'division', 'level', 'eloRanked'];
 
@@ -137,6 +134,10 @@ async function loadChanges(type = 'daily', skipCommit = '') {
     await updatePlayers(rankings, slug);
     log('Pruning old snapshots');
     await prune(type);
+    if (type === 'hourly') {
+      log('Packing old hourly pages');
+      await packHourly(retentionDays.hourly);
+    }
   }
   log('Done');
 }
